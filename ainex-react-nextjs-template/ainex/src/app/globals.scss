@@ -1,0 +1,134 @@
+@forward "./assets/sass/components/theme";
+@forward "./assets/sass/components/buttons";
+@forward "./assets/sass/components/header";
+@forward "./assets/sass/components/footer";
+@forward "./assets/sass/components/search";
+@forward "./assets/sass/components/hamburger";
+@forward "./assets/sass/components/preloader";
+@forward "./assets/sass/components/backtotop";
+@forward "./assets/sass/components/404";
+
+@forward "./assets/sass/layout/heading";
+@forward "./assets/sass/layout/hero";
+@forward "./assets/sass/layout/choose";
+@forward "./assets/sass/layout/client";
+@forward "./assets/sass/layout/about";
+@forward "./assets/sass/layout/services";
+@forward "./assets/sass/layout/marquee";
+@forward "./assets/sass/layout/project";
+@forward "./assets/sass/layout/testimonial";
+@forward "./assets/sass/layout/faq";
+@forward "./assets/sass/layout/blog";
+@forward "./assets/sass/layout/cta";
+@forward "./assets/sass/layout/countup";
+@forward "./assets/sass/layout/working-process";
+@forward "./assets/sass/layout/contact";
+@forward "./assets/sass/layout/slider";
+@forward "./assets/sass/layout/team";
+@forward "./assets/sass/layout/team-details";
+@forward "./assets/sass/layout/progress-bar";
+@forward "./assets/sass/layout/page-header";
+@forward "./assets/sass/layout/pricing";
+@forward "./assets/sass/layout/blog-details";
+@forward "./assets/sass/layout/achievement";
+@forward "./assets/sass/layout/video";
+@forward "./assets/sass/layout/gallery";
+@forward "./assets/sass/layout/animate";
+
+// home 5
+@forward "./assets/sass/components/h5-header";
+@forward "./assets/sass/components/h5-footer";
+@forward "./assets/sass/layout/h5-hero";
+@forward "./assets/sass/layout/h5-choose";
+@forward "./assets/sass/layout/h5-about";
+@forward "./assets/sass/layout/h5-services";
+@forward "./assets/sass/layout/h5-project";
+@forward "./assets/sass/layout/h5-working-process";
+@forward "./assets/sass/layout/h5-faq";
+@forward "./assets/sass/layout/h5-testimonial";
+@forward "./assets/sass/layout/h5-client";
+@forward "./assets/sass/layout/h5-blog";
+@forward "./assets/sass/layout/h5-cta";
+
+// home 6
+@forward "./assets/sass/components/h6-header";
+@forward "./assets/sass/components/h6-footer";
+@forward "./assets/sass/layout/h6-hero";
+@forward "./assets/sass/layout/h6-choose";
+@forward "./assets/sass/layout/h6-about";
+@forward "./assets/sass/layout/h6-services";
+@forward "./assets/sass/layout/h6-working-process";
+@forward "./assets/sass/layout/h6-project";
+@forward "./assets/sass/layout/h6-pricing";
+@forward "./assets/sass/layout/h6-testimonial";
+@forward "./assets/sass/layout/h6-blog";
+
+// home 7
+@forward "./assets/sass/components/h7-header";
+@forward "./assets/sass/components/h7-footer";
+@forward "./assets/sass/layout/h7-hero";
+@forward "./assets/sass/layout/h7-about";
+@forward "./assets/sass/layout/h7-client";
+@forward "./assets/sass/layout/h7-working-process";
+@forward "./assets/sass/layout/h7-services";
+@forward "./assets/sass/layout/h7-testimonial";
+@forward "./assets/sass/layout/h7-team";
+@forward "./assets/sass/layout/h7-project";
+@forward "./assets/sass/layout/h7-faq";
+@forward "./assets/sass/layout/h7-marquee";
+@forward "./assets/sass/layout/h7-blog";
+
+// home 8
+@forward "./assets/sass/components/h8-header";
+@forward "./assets/sass/components/h8-footer";
+@forward "./assets/sass/layout/h8-hero";
+@forward "./assets/sass/layout/h8-choose";
+@forward "./assets/sass/layout/h8-marquee";
+@forward "./assets/sass/layout/h8-countup";
+@forward "./assets/sass/layout/h8-services";
+@forward "./assets/sass/layout/h8-working-process";
+@forward "./assets/sass/layout/h8-project";
+@forward "./assets/sass/layout/h8-testimonial";
+@forward "./assets/sass/layout/h8-team";
+@forward "./assets/sass/layout/h8-blog";
+@forward "./assets/sass/layout/h8-cta";
+
+// home 9
+@forward "./assets/sass/components/h9-header";
+
+/* DataBrandix color system - single source of truth
+	 All colors are defined below as CSS custom properties. Do NOT modify
+	 the palette values. Components use these variables for colors. */
+:root {
+	/* Primary */
+	--color-primary-dark: #0B0D10;
+	--color-primary: #2F6BFF;
+
+	/* Secondary / Neutral */
+	--color-charcoal: #1C1F26;
+	--color-slate: #2A2F3A;
+	--color-section-bg: #1D2129;
+	--color-cool-grey: #8B93A7;
+	--color-off-white: #F5F7FA;
+
+	/* Functional */
+	--color-info: #4C7DFF;
+	--color-success: #4C7DFF;
+	--color-warning: #E25555;
+	--color-error: #E25555;
+
+	/* Interaction */
+	--color-hover: #2F6BFF;
+
+	/* Compatibility mappings for existing --tj-color-* variables used across project */
+	--tj-color-theme-primary: var(--color-primary);
+	--tj-color-theme-dark: var(--color-primary-dark);
+	--tj-color-theme-bg: var(--color-section-bg);
+	--tj-color-text-body: var(--color-cool-grey);
+	--tj-color-text-body-2: var(--color-charcoal);
+	--tj-color-common-white: var(--color-off-white);
+	--tj-color-white-2: rgba(255,255,255,0.8);
+	--tj-color-border-1: var(--color-slate);
+	--tj-color-heading-primary: var(--color-primary);
+}
+

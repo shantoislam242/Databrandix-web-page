@@ -1,0 +1,30 @@
+$colors: (
+	common: (
+		white: var(--color-off-white),
+		black: var(--color-primary-dark),
+	),
+	heading: (
+		primary: var(--color-off-white),
+	),
+	text: (
+		body: var(--color-cool-grey),
+		body-2: var(--color-charcoal),
+	),
+	theme: (
+		primary: var(--color-primary),
+		bg: var(--color-section-bg),
+		dark: var(--color-primary-dark),
+		dark-2: var(--color-slate),
+	),
+	white: (
+		2: var(--tj-color-white-2),
+	),
+	grey: (
+		1: var(--color-cool-grey),
+		2: var(--color-cool-grey),
+		3: rgba(150, 146, 178, 0.8),
+	),
+	border: (
+		1: var(--color-slate),
+	),
+);

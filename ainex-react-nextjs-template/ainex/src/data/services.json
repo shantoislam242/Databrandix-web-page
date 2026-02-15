@@ -1,0 +1,74 @@
+[
+	{
+		"id": 1,
+		"title": "AI-Powered Solutions",
+		"img": "/images/service/service-1.webp",
+		"img2": "/images/service/service-details-1.webp",
+		"iconName": "tji-service-1",
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+	},
+	{
+		"id": 2,
+		"title": "Custom Technology",
+		"img": "/images/service/service-2.webp",
+		"img2": "/images/service/service-details-2.webp",
+		"iconName": "tji-service-1",
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+	},
+	{
+		"id": 3,
+		"title": "Predictive Analytics",
+		"img": "/images/service/service-3.webp",
+		"img2": "/images/service/service-details-3.webp",
+		"iconName": "tji-service-1",
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+	},
+	{
+		"id": 4,
+		"title": "Machine Learning",
+		"img": "/images/service/service-4.webp",
+		"img2": "/images/service/service-details-4.webp",
+		"iconName": "tji-service-1",
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+	},
+	{
+		"id": 5,
+		"title": "Computer Vision",
+		"img": "/images/service/service-5.webp",
+		"img2": "/images/service/service-details-5.webp",
+		"iconName": "tji-service-1",
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+	},
+	{
+		"id": 6,
+		"title": "Language Processing",
+		"img": "/images/service/service-6.webp",
+		"img2": "/images/service/service-details-6.webp",
+		"iconName": "tji-service-1",
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+	},
+	{
+		"id": 7,
+		"title": "AI-Powered Solutions",
+		"img": "/images/service/service-1.webp",
+		"img2": "/images/service/service-details-1.webp",
+		"iconName": "tji-service-1",
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+	},
+	{
+		"id": 8,
+		"title": "Custom Technology",
+		"img": "/images/service/service-2.webp",
+		"img2": "/images/service/service-details-2.webp",
+		"iconName": "tji-service-1",
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+	},
+	{
+		"id": 9,
+		"title": "Predictive Analytics",
+		"img": "/images/service/service-3.webp",
+		"img2": "/images/service/service-details-3.webp",
+		"iconName": "tji-service-1",
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+	}
+]
