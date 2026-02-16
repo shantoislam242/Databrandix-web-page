@@ -15,27 +15,27 @@ const HeaderTop: FC<HeaderTopProps> = ({ type }) => {
 					<div className="col-12">
 						<div className="header-top-content">
 							<p className="topbar-text">
-								<i className="tji-idea"></i>Innovating Tomorrow, Today{" "}
-								<Link href="/contact">Click here</Link>
+								<i className="tji-idea"></i>Insight. Decision. Develop.{" "}
+								<Link href="/contact">Explore</Link>
 							</p>
 							<div className="header-info">
 								<div className="info-item">
 									<span>
 										<i className="tji-envelop-2"></i>
 									</span>
-									<Link href="mailto:hello@ainex.com">hello@ainex.com</Link>
+									<Link href="mailto:info@databrandix.com">info@databrandix.com</Link>
 								</div>
 								<div className="info-item">
 									<span>
 										<i className="tji-phone-2"></i>
 									</span>
-									<Link href="tel:8089091313">808-909-1313</Link>
+									<Link href="tel:01811699667">01811699667</Link>
 								</div>
 								<div className="info-item">
 									<div className="social-links">
 										<ul>
 											<li>
-												<Link href="https://www.facebook.com/" target="_blank">
+												<Link href="https://www.facebook.com/Databrandix.Official" target="_blank">
 													FB
 												</Link>
 											</li>
@@ -45,7 +45,7 @@ const HeaderTop: FC<HeaderTopProps> = ({ type }) => {
 												</Link>
 											</li>
 											<li>
-												<Link href="https://www.linkedin.com/" target="_blank">
+												<Link href="https://www.linkedin.com/company/databrandix/posts/?feedView=all" target="_blank">
 													LN
 												</Link>
 											</li>
