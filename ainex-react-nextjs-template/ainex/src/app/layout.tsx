@@ -29,8 +29,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-	title: "Ainex - AI Agency & Technology React NextJs Template",
-	description: "Ainex - AI Agency & Technology React NextJs Template",
+	title: "Databrandix | Insight. Decision. Develop.",
+	description: "Databrandix | Insight. Decision. Develop.",
 };
 
 export default function RootLayout({

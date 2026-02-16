@@ -10,17 +10,18 @@ interface LogoProps {
 }
 
 const Logo: FC<LogoProps> = ({ headerType, isStickyHeader }) => {
-	const logoSrc = "/images/logos/logo.webp";
+	const logoSrc = "/images/logos/newblack logo.png";
 
 	return (
-		<div className="site_logo">
-			<Link className="logo" href="/">
+		<div className="site_logo logo-container">
+			<Link className="logo logo-link" href="/">
 				<Image
 					src={logoSrc}
 					alt="Logo"
-					width={636}
-					height={154}
-					style={{ height: "auto" }}
+					fill
+					className="logo-image"
+					sizes="(max-width: 575px) 173px, (max-width: 991px) 198px, 231px"
+					priority
 				/>
 			</Link>
 		</div>

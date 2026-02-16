@@ -16,6 +16,19 @@ START: Working process CSS
 	&-2 {
 		background-color: var(--tj-color-theme-bg);
 		border-radius: 24px;
+		border-top: 1px solid rgba(255, 255, 255, 0.15);
+
+		// Reduce top padding for balanced spacing with previous sections
+		&.section-gap {
+			padding-top: 80px;
+
+			@media #{$lg} {
+				padding-top: 70px;
+			}
+			@media #{$md, $sm, $xs} {
+				padding-top: 35px;
+			}
+		}
 	}
 }
 .working-img {

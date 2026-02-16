@@ -284,10 +284,48 @@ START: Theme Header CSS
 }
 
 .site_logo {
+	--logo-height: 56px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+
+	.logo-link,
 	.logo {
-		display: inline-block;
-		max-width: 160px;
-		width: 100%;
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		justify-content: center;
+		height: var(--logo-height);
+		aspect-ratio: 636 / 154;
+		width: auto;
+		margin: 0;
+		padding: 0;
+		overflow: visible;
+	}
+
+	&.logo-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		margin: 0;
+		height: var(--logo-height);
+	}
+
+	.logo-image {
+		width: auto;
+		height: 100%;
+		display: block;
+		max-width: none;
+		object-fit: contain;
+	}
+
+	@media #{$md} {
+		--logo-height: 48px;
+	}
+
+	@media #{$sm, $xs} {
+		--logo-height: 42px;
 	}
 }
 .menu-area {

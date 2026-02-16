@@ -17,6 +17,18 @@ START: Testimonial CSS
 	&-2 {
 		overflow: hidden;
 	}
+
+	// Reduce bottom padding for balanced spacing with following sections
+	&.section-gap {
+		padding-bottom: 80px;
+
+		@media #{$lg} {
+			padding-bottom: 70px;
+		}
+		@media #{$md, $sm, $xs} {
+			padding-bottom: 35px;
+		}
+	}
 }
 
 .testimonial-wrapper {
