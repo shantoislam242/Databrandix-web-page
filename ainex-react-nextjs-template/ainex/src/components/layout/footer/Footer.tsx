@@ -81,10 +81,10 @@ const Footer = () => {
 										<p>
 											&copy; 2025 
 											<Link
-												href="https://themeforest.net/user/theme-junction/portfolio"
+												href="https://databrandix-web-page.vercel.app/"
 												target="_blank"
 											>
-												Ainex
+												Databrandix
 											</Link>{" "}
 											All right reserved
 										</p>

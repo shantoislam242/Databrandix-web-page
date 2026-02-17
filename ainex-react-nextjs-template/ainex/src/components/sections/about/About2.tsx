@@ -49,9 +49,7 @@ const About2 = ({ type }: PropType) => {
 											>
 												<h4 className="title">Our Mission</h4>
 												<p className="desc">
-													Revolutionize the way you work the our solutions
-													designed to meet the unique challenges of today’s
-													business landscape revolutionize.
+													Databrandix aligns data, marketing, automation, and operations into measurable growth systems that eliminate guesswork and drive real business outcomes.
 												</p>
 											</div>
 											<div
@@ -60,9 +58,7 @@ const About2 = ({ type }: PropType) => {
 											>
 												<h4 className="title">Our Vision</h4>
 												<p className="desc">
-													Revolutionize the way you work the our solutions
-													designed to meet the unique challenges of today’s
-													business landscape revolutionize.
+													To become a globally trusted data-driven growth company that empowers organizations to make confident decisions and build scalable, sustainable growth systems.
 												</p>
 											</div>
 											<div className=" wow fadeInUp" data-wow-delay=".5s"></div>
