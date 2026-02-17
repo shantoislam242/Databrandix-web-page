@@ -381,13 +381,17 @@ START: About CSS
 	justify-content: center;
 	flex: 0 0 auto;
 	img {
-		max-width: 100px;
-		width: 100%;
+		max-width: 160px;
+		max-height: 160px;
+		width: auto;
+		height: auto;
 		@media #{$xl, $lg, $md} {
-			max-width: 90px;
+			max-width: 145px;
+			max-height: 145px;
 		}
 		@media #{$sm, $xs} {
-			max-width: 80px;
+			max-width: 125px;
+			max-height: 125px;
 		}
 	}
 	@media #{$xl} {

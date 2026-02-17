@@ -38,7 +38,7 @@ const About2 = ({ type }: PropType) => {
 												width={199}
 												height={228}
 												style={{ height: "auto" }}
-												src="/images/logos/logo-2.webp"
+												src="/images/logos/logo3.png"
 												alt="Image"
 											/>
 										</div>
