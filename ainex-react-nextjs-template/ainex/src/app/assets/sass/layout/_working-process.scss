@@ -31,6 +31,19 @@ START: Working process CSS
 		}
 	}
 }
+
+// Create clear visual separation when Process section follows Testimonials.
+.tj-testimonial-section + .tj-working-process-2 {
+	margin-top: 26px;
+
+	@media #{$md} {
+		margin-top: 20px;
+	}
+
+	@media #{$sm, $xs} {
+		margin-top: 16px;
+	}
+}
 .working-img {
 	max-width: 604px;
 	width: 100%;

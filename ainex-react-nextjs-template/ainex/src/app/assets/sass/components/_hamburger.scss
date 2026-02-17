@@ -323,9 +323,23 @@
 
 .hamburger_logo {
 	.mobile_logo {
-		display: inline-block;
-		max-width: 136px;
+		display: inline-flex;
+		align-items: center;
+		max-width: 220px;
 		width: 100%;
+		line-height: 0;
+	}
+
+	@media #{$md} {
+		.mobile_logo {
+			max-width: 200px;
+		}
+	}
+
+	@media #{$sm, $xs} {
+		.mobile_logo {
+			max-width: 180px;
+		}
 	}
 }
 
