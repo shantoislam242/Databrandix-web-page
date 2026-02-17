@@ -19,7 +19,7 @@ const Footer = () => {
 											width={636}
 											height={154}
 											style={{ height: "auto" }}
-											src="/images/logos/logo.webp"
+											src="/images/logos/Xlogo.webp"
 											alt="Logo"
 										/>
 									</Link>

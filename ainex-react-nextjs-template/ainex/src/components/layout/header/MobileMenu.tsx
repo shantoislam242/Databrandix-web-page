@@ -40,7 +40,7 @@ const MobileMenu: FC<MobileMenuProps> = ({
 										width={636}
 										height={154}
 										style={{ height: "auto" }}
-										src="/images/logos/logo.webp"
+										src="/images/logos/Xlogo.webp"
 										alt="Logo"
 									/>
 								</Link>
@@ -81,20 +81,20 @@ const MobileMenu: FC<MobileMenuProps> = ({
 							<div className="contact-info">
 								<div className="contact-item">
 									<span className="subtitle">Phone</span>
-									<Link className="contact-link" href="tel:8089091313">
-										808-909-1313
+									<Link className="contact-link" href="tel:01811699667">
+										01811699667
 									</Link>
 								</div>
 								<div className="contact-item">
 									<span className="subtitle">Email</span>
-									<Link className="contact-link" href="mailto:info@Ainex.com">
-										info@ainex.com
+									<Link className="contact-link" href="mailto:info@databrandix.com">
+										info@databrandix.com
 									</Link>
 								</div>
 								<div className="contact-item">
 									<span className="subtitle">Location</span>
 									<span className="contact-link">
-										993 Renner Burg, West Rond, MT 94251-030
+										House 21, Lake Drive Road, Sector-7, Uttara, Dhaka, Bangladesh, 1230
 									</span>
 								</div>
 							</div>
@@ -106,12 +106,12 @@ const MobileMenu: FC<MobileMenuProps> = ({
 						<div className="social-links style-2">
 							<ul>
 								<li>
-									<Link href="https://www.facebook.com/" target="_blank">
+									<Link href="https://www.facebook.com/Databrandix.Official" target="_blank">
 										<i className="tji-facebook"></i>
 									</Link>
 								</li>
 								<li>
-									<Link href="https://www.linkedin.com/" target="_blank">
+									<Link href="https://www.linkedin.com/company/databrandix/posts/?feedView=all" target="_blank">
 										<i className="tji-linkedin"></i>
 									</Link>
 								</li>

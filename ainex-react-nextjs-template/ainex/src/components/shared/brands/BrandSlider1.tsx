@@ -28,13 +28,15 @@ const BrandSlider1 = () => {
 					? brands?.map(({ img = "/images/brands/brand-1.webp" }, idx) => (
 							<SwiperSlide key={idx} className="client-item">
 								<div className="client-logo">
-									<Image
-										width={142}
-										height={32}
-										style={{ height: "auto" }}
-										src={img}
-										alt="Brand"
-									/>
+									<div className="client-logo-media">
+										<Image
+											fill
+											className="client-logo-image"
+											sizes="(max-width: 767px) 130px, 150px"
+											src={img}
+											alt="Brand"
+										/>
+									</div>
 								</div>
 							</SwiperSlide>
 					  ))

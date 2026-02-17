@@ -17,7 +17,7 @@ const Brands1 = ({ type = 0 }: PropType) => {
 					<div className="col-12">
 						<div className="client-content wow fadeInUp" data-wow-delay=".3s">
 							<h5 className="sec-title">
-								<span className="client-numbers">2000+</span> Trusted Client
+								<span className="client-numbers">100+</span> Trusted Client
 								over the World
 							</h5>
 						</div>

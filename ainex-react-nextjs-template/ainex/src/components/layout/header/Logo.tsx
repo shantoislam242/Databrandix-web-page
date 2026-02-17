@@ -10,7 +10,7 @@ interface LogoProps {
 }
 
 const Logo: FC<LogoProps> = ({ headerType, isStickyHeader }) => {
-	const logoSrc = "/images/logos/newblack logo.png";
+	const logoSrc = "/images/logos/Xlogo.webp";
 
 	return (
 		<div className="site_logo logo-container">
