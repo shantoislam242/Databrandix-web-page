@@ -76,9 +76,7 @@ const OffcanvasPopup: FC<PropType> = ({
 						</div>
 						<div className="offcanvas-text">
 							<p>
-								Developing personalize our customer journeys to increase
-								satisfaction & loyalty of our expansion recognized by industry
-								leaders.
+								Databrandix integrates data, marketing, and automation to build scalable growth systems for modern businesses.
 							</p>
 						</div>
 						<div className="hamburger-search-area">
