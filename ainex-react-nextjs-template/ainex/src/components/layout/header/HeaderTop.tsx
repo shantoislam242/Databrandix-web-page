@@ -40,7 +40,7 @@ const HeaderTop: FC<HeaderTopProps> = ({ type }) => {
 												</Link>
 											</li>
 											<li>
-												<Link href="https://www.instagram.com/" target="_blank">
+												<Link href="https://www.instagram.com/databrandix.official/" target="_blank">
 													IN
 												</Link>
 											</li>
@@ -50,7 +50,7 @@ const HeaderTop: FC<HeaderTopProps> = ({ type }) => {
 												</Link>
 											</li>
 											<li>
-												<Link href="https://x.com/" target="_blank">
+												<Link href="https://x.com/databrandix1" target="_blank">
 													TW
 												</Link>
 											</li>

@@ -116,12 +116,12 @@ const MobileMenu: FC<MobileMenuProps> = ({
 									</Link>
 								</li>
 								<li>
-									<Link href="https://www.instagram.com/" target="_blank">
+									<Link href="https://www.instagram.com/databrandix.official/" target="_blank">
 										<i className="tji-instagram"></i>
 									</Link>
 								</li>
 								<li>
-									<Link href="https://x.com/" target="_blank">
+									<Link href="https://x.com/databrandix1" target="_blank">
 										<i className="tji-x-twitter"></i>
 									</Link>
 								</li>
