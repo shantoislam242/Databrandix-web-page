@@ -81,8 +81,8 @@ const MobileMenu: FC<MobileMenuProps> = ({
 							<div className="contact-info">
 								<div className="contact-item">
 									<span className="subtitle">Phone</span>
-									<Link className="contact-link" href="tel:01811699667">
-										01811699667
+									<Link className="contact-link" href="tel:+8801811699667">
+										+8801811699667
 									</Link>
 								</div>
 								<div className="contact-item">

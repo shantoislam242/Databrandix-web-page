@@ -21,7 +21,7 @@ const ContactTop = () => {
 								<i className="tji-location"></i>
 							</div>
 							<h3 className="contact-title">Our Location</h3>
-							<p>993 Renner Burg, West Rond, MT 94251-030</p>
+							<p>House 21, Lake Drive Road, Sector-7, Uttara, Dhaka, Bangladesh, 1230</p>
 						</div>
 					</div>
 					<div className="col-xl-3 col-lg-6 col-sm-6">
@@ -32,10 +32,10 @@ const ContactTop = () => {
 							<h3 className="contact-title">Email us</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="mailto:support@ainex.com">support@ainex.com</Link>
+									<Link href="mailto:contact@databrandix.com">contact@databrandix.com</Link>
 								</li>
 								<li>
-									<Link href="mailto:info@ainex.com">info@ainex.com</Link>
+									<Link href="mailto:info@databrandix.com">info@databrandix.com</Link>
 								</li>
 							</ul>
 						</div>
@@ -48,10 +48,10 @@ const ContactTop = () => {
 							<h3 className="contact-title">Call us</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="tel:10095447818">+1 (009) 544-7818</Link>
+									<Link href="tel:+8801811699667">+8801811699667</Link>
 								</li>
 								<li>
-									<Link href="tel:10098801810">+1 (009) 880-1810</Link>
+									<Link href="tel:+8801933669966">+8801933669966</Link>
 								</li>
 							</ul>
 						</div>
@@ -64,8 +64,8 @@ const ContactTop = () => {
 							<h3 className="contact-title">Live chat</h3>
 							<ul className="contact-list">
 								<li>
-									<Link href="mailto:livechat@ainex.com">
-										livechat@ainex.com
+									<Link href="mailto:info@databrandix.com">
+										info@databrandix.com
 									</Link>
 								</li>
 								<li className="active">

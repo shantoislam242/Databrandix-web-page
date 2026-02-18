@@ -49,7 +49,7 @@ const About2 = ({ type }: PropType) => {
 											>
 												<h4 className="title">Our Mission</h4>
 												<p className="desc">
-													Databrandix aligns data, marketing, automation, and operations into measurable growth systems that eliminate guesswork and drive real business outcomes.
+													Databrandix integrates data, marketing, automation, and operations to drive measurable, outcome-driven growth.
 												</p>
 											</div>
 											<div
@@ -58,7 +58,8 @@ const About2 = ({ type }: PropType) => {
 											>
 												<h4 className="title">Our Vision</h4>
 												<p className="desc">
-													To become a globally trusted data-driven growth company that empowers organizations to make confident decisions and build scalable, sustainable growth systems.
+													To become a globally trusted, data-driven growth company that powers business decisions through integrated marketing, analytics, automation, and technology systems.
+
 												</p>
 											</div>
 											<div className=" wow fadeInUp" data-wow-delay=".5s"></div>

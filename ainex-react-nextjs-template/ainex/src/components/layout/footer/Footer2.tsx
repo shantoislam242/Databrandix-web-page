@@ -90,12 +90,12 @@ const Footer2 = () => {
 								<h5 className="title">Contact Info</h5>
 								<div className="footer-contact-info">
 									<div className="contact-item">
-										<span>993 Renner Burg, West Rond, MT 94251-030, USA.</span>
+										<span>House 21, Lake Drive Road, Sector-7, Uttara, Dhaka, Bangladesh, 1230</span>
 									</div>
 									<div className="contact-item">
-										<Link href="tel:10095447818">P: +1 (009) 544-7818</Link>
-										<Link href="mailto:support@ainex.com">
-											E: support@ainex.com
+										<Link href="tel:+8801811699667">P: +8801811699667</Link>
+										<Link href="mailto:info@databrandix.com">
+											E: info@databrandix.com
 										</Link>
 									</div>
 									<div className="contact-item">

@@ -26,9 +26,9 @@ const Contact2 = () => {
 									className="contact-team-details-message wow fadeInUp"
 									data-wow-delay="0.5s"
 								>
-									<Link href="mailto:support@ainex.com">
+									<Link href="mailto:info@databrandix.com">
 										{" "}
-										<i className="tji-chat"></i>livechat@ainex.com
+										<i className="tji-chat"></i>info@databrandix.com
 									</Link>
 								</h6>
 							</div>

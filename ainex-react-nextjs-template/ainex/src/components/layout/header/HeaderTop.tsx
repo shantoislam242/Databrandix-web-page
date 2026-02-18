@@ -29,7 +29,7 @@ const HeaderTop: FC<HeaderTopProps> = ({ type }) => {
 									<span>
 										<i className="tji-phone-2"></i>
 									</span>
-									<Link href="tel:01811699667">01811699667</Link>
+									<Link href="tel:+8801811699667">+8801811699667</Link>
 								</div>
 								<div className="info-item">
 									<div className="social-links">

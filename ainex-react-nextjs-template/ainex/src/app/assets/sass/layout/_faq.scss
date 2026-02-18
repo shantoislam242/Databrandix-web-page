@@ -99,6 +99,7 @@ START: Faq CSS
 				var(--tj-color-theme-bg) 100%
 			);
 			.faq-title {
+				color: var(--tj-color-common-white);
 				&::after {
 					content: "\e936";
 					color: var(--tj-color-common-white);
@@ -124,6 +125,9 @@ START: Faq CSS
 					var(--tj-color-theme-primary) 0%,
 					var(--tj-color-theme-dark) 100%
 				);
+				.faq-title {
+					color: var(--tj-color-common-white);
+				}
 			}
 		}
 	}
