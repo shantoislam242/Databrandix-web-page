@@ -90,4 +90,10 @@ START: Breadcrumb CSS
 	}
 }
 
+.legal-page {
+	.tj-page-title {
+		font-size: clamp(36px, 6vw, 78px);
+	}
+}
+
 /* !END: Breadcrumb CSS */

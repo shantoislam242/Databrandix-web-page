@@ -62,7 +62,10 @@ const Footer = () => {
 										</button>
 										<label htmlFor="agree">
 											<input id="agree" type="checkbox" />
-											Agree to our <Link href="#">Terms & Condition?</Link>
+											Agree to our{" "}
+											<Link href="/terms-conditions">
+												Terms & Condition?
+											</Link>
 										</label>
 									</form>
 								</div>
@@ -92,10 +95,10 @@ const Footer = () => {
 									<div className="copyright-menu">
 										<ul>
 											<li>
-												<Link href="/contact">Privacy Policy</Link>
+												<Link href="/privacy-policy">Privacy Policy</Link>
 											</li>
 											<li>
-												<Link href="/contact">Terms & Condition</Link>
+												<Link href="/terms-conditions">Terms & Condition</Link>
 											</li>
 										</ul>
 									</div>

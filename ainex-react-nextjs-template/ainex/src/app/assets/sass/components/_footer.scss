@@ -290,7 +290,7 @@ START: Theme Footer CSS
 			font-size: 15px;
 			line-height: 1;
 			font-family: "ainex-icons" !important;
-			color: var(--tj-color-theme-dark);
+			color: var(--tj-color-theme-primary);
 			position: absolute;
 			width: 100%;
 			text-align: center;
@@ -300,8 +300,8 @@ START: Theme Footer CSS
 			transition: all 0.3s ease-in-out;
 		}
 		&:checked {
-			background-color: var(--color-section-bg);
-			border-color: var(--color-section-bg);
+			background-color: transparent;
+			border-color: var(--tj-color-theme-primary);
 			&::before {
 				transform: scale(1);
 				opacity: 1;
