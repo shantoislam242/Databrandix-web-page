@@ -17,31 +17,19 @@ START: Working process CSS
 		background-color: var(--tj-color-theme-bg);
 		border-radius: 24px;
 		border-top: 1px solid rgba(255, 255, 255, 0.15);
-
-		// Reduce top padding for balanced spacing with previous sections
-		&.section-gap {
-			padding-top: 80px;
-
-			@media #{$lg} {
-				padding-top: 70px;
-			}
-			@media #{$md, $sm, $xs} {
-				padding-top: 35px;
-			}
-		}
 	}
 }
 
-// Create clear visual separation when Process section follows Testimonials.
+// Keep consistent vertical distance when Testimonials is directly followed by Process.
 .tj-testimonial-section + .tj-working-process-2 {
-	margin-top: 26px;
+	margin-top: 100px;
 
 	@media #{$md} {
-		margin-top: 20px;
+		margin-top: 75px;
 	}
 
 	@media #{$sm, $xs} {
-		margin-top: 16px;
+		margin-top: 52px;
 	}
 }
 .working-img {
