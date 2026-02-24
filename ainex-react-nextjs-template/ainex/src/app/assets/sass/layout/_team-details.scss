@@ -20,10 +20,13 @@ START: Team Details CSS
 	}
 	&__img {
 		background-color: var(--tj-color-theme-dark);
+		border-radius: 12px;
+		overflow: hidden;
 		img {
-			border-radius: 12px;
 			width: 100%;
-			mix-blend-mode: luminosity;
+			display: block;
+			object-fit: cover;
+			mix-blend-mode: normal;
 		}
 	}
 	&__content {

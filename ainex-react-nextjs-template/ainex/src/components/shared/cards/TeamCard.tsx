@@ -1,11 +1,24 @@
-import { TeamSingleType } from "@/libs/getTeamMembers";
+﻿import { TeamSingleType } from "@/libs/getTeamMembers";
 import Image from "next/image";
 import Link from "next/link";
+
 interface PropType {
 	item: TeamSingleType;
 }
+
 const TeamCard = ({ item }: PropType) => {
-	const { id, name, desig, img = "/images/team/team-1.webp" } = item || {};
+	const { id, name, desig, img = "/images/team/team-1.webp", socialLinks } = item || {};
+	const effectiveSocialLinks = {
+		facebook:
+			socialLinks?.facebook || "https://www.facebook.com/Databrandix.Official",
+		linkedin:
+			socialLinks?.linkedin ||
+			"https://www.linkedin.com/company/databrandix/posts/?feedView=all",
+		instagram:
+			socialLinks?.instagram || "https://www.instagram.com/databrandix.official/",
+		x: socialLinks?.x || "https://x.com/databrandix1",
+	};
+
 	return (
 		<div className="team-item">
 			<div className="team-img">
@@ -29,22 +42,22 @@ const TeamCard = ({ item }: PropType) => {
 				</span>
 				<ul>
 					<li>
-						<Link href="https://www.facebook.com/Databrandix.Official" target="_blank">
+						<Link href={effectiveSocialLinks.facebook} target="_blank" rel="noopener noreferrer">
 							<i className="tji-facebook"></i>
 						</Link>
 					</li>
 					<li>
-						<Link href="https://www.linkedin.com/company/databrandix/posts/?feedView=all" target="_blank">
+						<Link href={effectiveSocialLinks.linkedin} target="_blank" rel="noopener noreferrer">
 							<i className="tji-linkedin"></i>
 						</Link>
 					</li>
 					<li>
-						<Link href="https://www.instagram.com/databrandix.official/" target="_blank">
+						<Link href={effectiveSocialLinks.instagram} target="_blank" rel="noopener noreferrer">
 							<i className="tji-instagram"></i>
 						</Link>
 					</li>
 					<li>
-						<Link href="https://x.com/databrandix1" target="_blank">
+						<Link href={effectiveSocialLinks.x} target="_blank" rel="noopener noreferrer">
 							<i className="tji-x-twitter"></i>
 						</Link>
 					</li>

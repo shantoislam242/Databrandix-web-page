@@ -1,68 +1,94 @@
 [
-	{
-		"id": 1,
-		"name": "Dianne Russell",
-		"desig": "CEO & Owner",
-		"img": "/images/team/team-1.webp"
-	},
-	{
-		"id": 2,
-		"name": "Eleanor Pena",
-		"desig": "Operations Head",
-		"img": "/images/team/team-2.webp"
-	},
-	{
-		"id": 3,
-		"name": "Cameron William",
-		"desig": "Marketing Lead",
-		"img": "/images/team/team-3.webp"
-	},
-	{
-		"id": 4,
-		"name": "Robert Fox",
-		"desig": "Business Director",
-		"img": "/images/team/team-4.webp"
-	},
-	{
-		"id": 5,
-		"name": "James Anderson",
-		"desig": "Business Director",
-		"img": "/images/team/team-5.webp"
-	},
-	{
-		"id": 6,
-		"name": "Emma Richardson",
-		"desig": "Marketing Lead",
-		"img": "/images/team/team-6.webp"
-	},
-	{
-		"id": 7,
-		"name": "Benjamin Reed",
-		"desig": "Operations Head",
-		"img": "/images/team/team-7.webp"
-	},
-	{
-		"id": 8,
-		"name": "Savannah Nguyen",
-		"desig": "Chief Executive",
-		"img": "/images/team/team-8.webp"
-	},
-	{
-		"id": 9,
-		"name": "Robert Fox",
-		"desig": "Business Director",
-		"img": "/images/team/team-4.webp"
-	},
-	{
-		"id": 10,
-		"name": "James Anderson",
-		"desig": "Business Director",
-		"img": "/images/team/team-5.webp"
-	},
-	{
-		"id": 11,
-		"name": "Emma Richardson",
-		"desig": "Marketing Lead",
-		"img": "/images/team/team-6.webp"
-	}
+    {
+        "id":  1,
+        "name":  "Dianne Russell",
+        "desig":  "CEO \u0026 Owner",
+        "img":  "/images/team/team-1.webp"
+    },
+    {
+        "id":  2,
+        "name":  "Shafat Ahamed",
+        "desig":  "Executive HR \u0026 Operations",
+        "img":  "/images/team/team-2.webp",
+        "shortBio":  "Managing HR operations, administrative coordination, and accounts activities to ensure smooth and efficient day-to-day business performance. I support recruitment and employee management, oversee administrative processes and expense tracking, and maintain financial documentation while collaborating across departments to enhance workflow and productivity.",
+        "professionalSkillsBio":  "Skilled in payroll management, HR operations administration, and recruitment execution with a strong focus on compliance, accuracy, and process efficiency.",
+        "email":  "hr.databrandix@gmail.com",
+        "phone":  "+8801717969432",
+        "workExperienceSummary":  "Background in manufacturing, wellness, and HR service industries in Bangladesh. Expert in Bangladesh Labour Act 2006 compliance, high-volume recruitment, grievance handling, and ERP-based payroll systems.",
+        "yearsOfExperience":  "7+",
+        "socialLinks":  {
+                            "facebook":  "https://www.facebook.com/Databrandix.Official",
+                            "linkedin":  "https://linkedin.com/in/shafat-ahamed-2b0454ab",
+                            "instagram":  "https://www.instagram.com/databrandix.official/",
+                            "x":  "https://x.com/databrandix1"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Payroll Management",
+                           "proficiency":  95
+                       },
+                       {
+                           "category":  "HR Operations \u0026 Administration",
+                           "proficiency":  93
+                       },
+                       {
+                           "category":  "Recruitment \u0026 Talent Acquisition",
+                           "proficiency":  92
+                       }
+                   ]
+    },
+    {
+        "id":  3,
+        "name":  "Cameron William",
+        "desig":  "Marketing Lead",
+        "img":  "/images/team/team-3.webp"
+    },
+    {
+        "id":  4,
+        "name":  "Robert Fox",
+        "desig":  "Business Director",
+        "img":  "/images/team/team-4.webp"
+    },
+    {
+        "id":  5,
+        "name":  "James Anderson",
+        "desig":  "Business Director",
+        "img":  "/images/team/team-5.webp"
+    },
+    {
+        "id":  6,
+        "name":  "Emma Richardson",
+        "desig":  "Marketing Lead",
+        "img":  "/images/team/team-6.webp"
+    },
+    {
+        "id":  7,
+        "name":  "Benjamin Reed",
+        "desig":  "Operations Head",
+        "img":  "/images/team/team-7.webp"
+    },
+    {
+        "id":  8,
+        "name":  "Savannah Nguyen",
+        "desig":  "Chief Executive",
+        "img":  "/images/team/team-8.webp"
+    },
+    {
+        "id":  9,
+        "name":  "Robert Fox",
+        "desig":  "Business Director",
+        "img":  "/images/team/team-4.webp"
+    },
+    {
+        "id":  10,
+        "name":  "James Anderson",
+        "desig":  "Business Director",
+        "img":  "/images/team/team-5.webp"
+    },
+    {
+        "id":  11,
+        "name":  "Emma Richardson",
+        "desig":  "Marketing Lead",
+        "img":  "/images/team/team-6.webp"
+    }
 ]
