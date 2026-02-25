@@ -78,8 +78,8 @@ const Footer3 = () => {
 								</div>
 								<div className="footer-text">
 									<p>
-										Understanding client needs, defining goals, and designing
-										tailored AI crafting's solutions.
+										Aligning marketing, data, and systems to deliver measurable
+										and sustainable growth outcomes.
 									</p>
 								</div>
 								<div className="social-links style-2">

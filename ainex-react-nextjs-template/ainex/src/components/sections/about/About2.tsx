@@ -29,6 +29,19 @@ const About2 = ({ type }: PropType) => {
 											Delivering Tailored
 										</h2>
 									</div>
+									<div
+										className="mission-vision-box about-intro-box wow fadeInUp"
+										data-wow-delay=".4s"
+									>
+										<h4 className="title">About</h4>
+										<p className="desc">
+											Databrandix was built from a simple belief: growth should
+											never be driven by guesswork. In a world full of noise,
+											metrics, and tools, businesses don&apos;t just need more
+											marketing-they need clarity. Databrandix exists to bring
+											that clarity through data.
+										</p>
+									</div>
 									<div className="about-bottom-area-2">
 										<div
 											className="company-logo wow fadeInLeft"

@@ -442,6 +442,29 @@ START: About CSS
 	}
 }
 
+.about-intro-box {
+	margin-bottom: 24px;
+	.title {
+		font-size: var(--tj-fs-h4);
+		line-height: 1.1;
+	}
+	.desc {
+		max-width: 840px;
+		margin-bottom: 0;
+	}
+	@media #{$md} {
+		.title {
+			font-size: 22px;
+		}
+	}
+	@media #{$sm, $xs} {
+		margin-bottom: 20px;
+		.title {
+			font-size: 20px;
+		}
+	}
+}
+
 .about-content-area-2 {
 	display: flex;
 	flex-wrap: wrap;
