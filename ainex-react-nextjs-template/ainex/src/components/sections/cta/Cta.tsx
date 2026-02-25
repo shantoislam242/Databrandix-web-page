@@ -15,7 +15,7 @@ const Cta = () => {
 								<ButtonPrimary
 									text="Get Started Today"
 									url="/contact"
-									className="btn-light"
+									className="btn-dark"
 								/>
 							</div>
 							<div className="cta-img">
