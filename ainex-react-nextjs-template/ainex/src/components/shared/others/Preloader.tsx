@@ -10,7 +10,7 @@ const Preloader = () => {
 						width={73}
 						height={76}
 						style={{ height: "auto" }}
-						src="/images/logos/logo-icon.webp"
+						src="/images/logos/Preload@4x.png"
 						alt="Loading"
 					/>
 				</div>
