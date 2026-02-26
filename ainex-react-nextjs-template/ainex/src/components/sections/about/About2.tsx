@@ -8,7 +8,9 @@ const About2 = ({ type }: PropType) => {
 	return (
 		<section
 			className={`tj-about-section-2 section-gap-x ${
-				type === 2 ? "" : "section-gap-top"
+				type === 2
+					? ""
+					: "section-gap-top sidebar-sticky-container about-team-sticky-style"
 			}`}
 		>
 			<div className="about-wrapper">
@@ -87,7 +89,11 @@ const About2 = ({ type }: PropType) => {
 							</div>
 						</div>
 					</div>
-					<div className="about-img-area">
+					<div
+						className={`about-img-area ${
+							type === 2 ? "" : "sidebar-sticky sidebar-sticky-about"
+						}`}
+					>
 						<div
 							className="about-img wow fadeInLeft"
 							data-wow-delay=".3s"

@@ -16,16 +16,25 @@ const sidebarSticky = (): void => {
 					const lastPanel = panels[lastIdx];
 					const paddingBottom =
 						parseInt(getComputedStyle(container).paddingBottom) || 0;
+					const aboutReadMoreButton = container.querySelector<HTMLElement>(
+						".about-bottom-area-2 .tj-primary-btn"
+					);
+					const aboutArea = container.querySelector<HTMLElement>(".about-area");
 					panels.forEach((panel: HTMLElement) => {
+						const isAboutPanel = panel.classList.contains("sidebar-sticky-about");
 						gsap.to(panel, {
 							scrollTrigger: {
 								trigger: panel,
 								start: `top-=${startOffset} top`,
-								endTrigger: container,
-								end: () =>
-									`bottom top+=${
-										lastPanel.offsetHeight + startOffset + paddingBottom
-									}`,
+								endTrigger: isAboutPanel
+									? aboutReadMoreButton || aboutArea || container
+									: container,
+								end: isAboutPanel
+									? "bottom bottom"
+									: () =>
+											`bottom top+=${
+												lastPanel.offsetHeight + startOffset + paddingBottom
+											}`,
 								pin: true,
 								pinSpacing: false,
 								scrub: true,

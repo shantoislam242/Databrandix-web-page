@@ -316,6 +316,21 @@ START: About CSS
 	z-index: 1;
 }
 
+.about-team-sticky-style {
+	.about-img-area {
+		height: auto;
+	}
+
+	.about-img-area .about-img {
+		height: auto;
+	}
+
+	.about-img-area .about-img img {
+		height: auto;
+		display: block;
+	}
+}
+
 .about-img-area {
 	width: 47.5%;
 	height: 100%;
@@ -626,7 +641,6 @@ START: About CSS
 	padding-top: 95px;
 	padding-bottom: 70px;
 	border-top: 1px solid rgba(255, 255, 255, 0.08);
-	border-bottom: 1px solid rgba(255, 255, 255, 0.08);
 
 	.growth-systems-wrap {
 		max-width: 980px;
