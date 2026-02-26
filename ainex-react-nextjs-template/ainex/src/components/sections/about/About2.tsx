@@ -24,11 +24,11 @@ const About2 = ({ type }: PropType) => {
 											className="sub-title wow fadeInUp"
 											data-wow-delay=".3s"
 										>
-											Explore Our Services
+											About Us
 										</span>
 										<h2 className="sec-title text-anim">
-											Driving Innovation Through AI and New Technology,
-											Delivering Tailored
+											Transforming Insight Into Action and Structured Systems,
+											Delivering Business Growth
 										</h2>
 									</div>
 									<div
