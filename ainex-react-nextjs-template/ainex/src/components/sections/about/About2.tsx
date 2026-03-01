@@ -27,8 +27,7 @@ const About2 = ({ type }: PropType) => {
 											About Us
 										</span>
 										<h2 className="sec-title text-anim">
-											Transforming Insight Into Action and Structured Systems,
-											Delivering Business Growth
+											From Insight to Structured Growth
 										</h2>
 									</div>
 									<div

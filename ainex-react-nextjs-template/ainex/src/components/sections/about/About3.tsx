@@ -1,5 +1,3 @@
-import ButtonPrimary from "@/components/shared/buttons/ButtonPrimary";
-import FunfactSingle from "@/components/shared/funfact/FunfactSingle";
 import PopupVideo from "@/components/shared/popup-video/PopupVideo";
 import Image from "next/image";
 import Link from "next/link";
@@ -21,25 +19,37 @@ const About3 = () => {
 								</h2>
 							</div>
 							<div className="about-bottom-area-3">
-								<div className="experience-wrap">
-									<FunfactSingle currentValue={13} sup="+" type={2} />
-									<h6 className="experience-text">
-										We have 10+ Years of working Experiences.
-									</h6>
-								</div>
-								<div className="about-content">
-									<p className="desc">
-										Our team of experts combines innovation, and strategy to
-										deliver custom AI-driven tools and services empower
-										transformation.
+								<div className="process-item">
+									<span className="process-number">01</span>
+									<h4 className="process-title">Insight</h4>
+									<p className="process-desc">
+										We identify structural gaps not surface symptoms.
+										Data, funnel behavior, and operational friction are mapped before action begins.
 									</p>
-									<ul className="list-style-1 text-white">
-										<li>Artificial Intelligence</li>
-										<li>Identity Management</li>
-										<li>Local Insights</li>
-										<li>Business Analytics</li>
-									</ul>
-									<ButtonPrimary text="Read More" url="/about" />
+								</div>
+								<div className="process-item">
+									<span className="process-number">02</span>
+									<h4 className="process-title">Decision</h4>
+									<p className="process-desc">
+										Insights become structured decisions.
+										Targets are defined, metrics selected, ownership assigned nothing moves without clarity.
+									</p>
+								</div>
+								<div className="process-item">
+									<span className="process-number">03</span>
+									<h4 className="process-title">System</h4>
+									<p className="process-desc">
+										Marketing, AI, automation, and development operate inside one integrated growth architecture.
+										Tools are connected..
+									</p>
+								</div>
+								<div className="process-item">
+									<span className="process-number">04</span>
+									<h4 className="process-title">Outcome</h4>
+									<p className="process-desc">
+										Performance is tracked weekly against defined benchmarks.
+										Issues trigger correction. Progress triggers scale.
+									</p>
 								</div>
 							</div>
 						</div>
