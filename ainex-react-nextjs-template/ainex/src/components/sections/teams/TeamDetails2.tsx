@@ -30,6 +30,11 @@ const TeamDetails2 = ({ currentItemId }: PropType) => {
 		socialLinks,
 		skills,
 	} = currentItem || {};
+	const nameParts = name?.trim().split(/\s+/).filter(Boolean) || [];
+	const displayName =
+		nameParts[0]?.toLowerCase() === "md" && nameParts[1]
+			? nameParts[1]
+			: nameParts[0] || name || "";
 
 	const phoneHref = phone ? `tel:${phone.replace(/\s+/g, "")}` : "tel:10095447818";
 	const hasCustomSocialLinks = Boolean(
@@ -63,7 +68,12 @@ const TeamDetails2 = ({ currentItemId }: PropType) => {
 					</div>
 					<div className="col-12 col-lg-7 ">
 						<div className="team-details__content">
-							<h2 className="team-details__name">Hello, I am {name}</h2>
+							<h2 className="team-details__name">
+								Hello, I am{" "}
+								<span style={{ color: "#fff" }}>
+									{displayName}
+								</span>
+							</h2>
 							<span className="team-details__desig">{desig}</span>
 							<p>
 								{shortBio ||

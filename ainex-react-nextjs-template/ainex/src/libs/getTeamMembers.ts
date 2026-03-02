@@ -28,7 +28,7 @@ export interface TeamSingleType {
 }
 
 const getTeamMembers = () => {
-	return teamMembers as TeamSingleType[];
+	return [...(teamMembers as TeamSingleType[])].sort((a, b) => a.id - b.id);
 };
 
 export default getTeamMembers;

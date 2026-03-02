@@ -6,7 +6,7 @@
         "img":  "/images/team/team-1.webp"
     },
     {
-        "id":  2,
+        "id":  6,
         "name":  "Shafat Ahamed",
         "desig":  "Executive HR \u0026 Operations",
         "img":  "/images/team/team-2.webp",
@@ -45,9 +45,34 @@
     },
     {
         "id":  4,
-        "name":  "Robert Fox",
-        "desig":  "Business Director",
-        "img":  "/images/team/team-4.webp"
+        "name":  "Md Arifujjaman",
+        "desig":  "Lead Visual Artist",
+        "img":  "/images/team/team-4.webp",
+        "shortBio":  "I am a creative graphic designer specializing in logos, banners, social media posts, and branding. I turn ideas into visually appealing designs and ensure every project is unique, professional, and impactful for clients.",
+        "professionalSkillsBio":  "I focus on creativity, attention to detail, and meeting deadlines to ensure client satisfaction. I have worked with various clients to deliver visually appealing and professional designs that effectively communicate their brand message.",
+        "email":  "artistixarif@gmail.com",
+        "phone":  "01783459277",
+        "workExperienceSummary":  "I am a creative graphic designer with experience in designing logos, social media content, banners, and branding materials. I have worked with various clients to deliver impactful designs.",
+        "yearsOfExperience":  "3 years",
+        "socialLinks":  {
+                            "facebook":  "https://www.facebook.com/arifdesigner77",
+                            "linkedin":  "https://www.linkedin.com/in/arif-designer77/",
+                            "instagram":  "https://www.instagram.com/md_arif_ansary/"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Graphic Design",
+                           "proficiency":  95
+                       },
+                       {
+                           "category":  "Adobe Photoshop",
+                           "proficiency":  90
+                       },
+                       {
+                           "category":  "Adobe Illustrator",
+                           "proficiency":  85
+                       }
+                   ]
     },
     {
         "id":  5,
@@ -56,10 +81,35 @@
         "img":  "/images/team/team-5.webp"
     },
     {
-        "id":  6,
-        "name":  "Emma Richardson",
-        "desig":  "Marketing Lead",
-        "img":  "/images/team/team-6.webp"
+        "id":  2,
+        "name":  "Harun Or Roshid",
+        "desig":  "Marketing Lead and Web Developer",
+        "img":  "/images/team/team-6.webp",
+        "shortBio":  "I am a results-driven Digital Marketing Strategist \u0026 Web Developer. I plan and execute data-driven marketing campaigns to improve brand visibility and business growth.",
+        "professionalSkillsBio":  "I specialise in content strategy, performance analysis, and AI-powered marketing solutions. I am passionate about leveraging digital tools and analytics to deliver measurable results and long-term success for organisations.",
+        "email":  "work.databrandix007@gmail.com",
+        "phone":  "01713697303",
+        "workExperienceSummary":  "I have over 2+ years of experience in digital marketing, working with educational institutions, a Nationwide ISP, and training-based organisations. I have managed paid campaigns for Sonargaon University, National Institute of Engineering and Technology, and GlobalEd, along with other growing brands. My expertise includes Meta and Google Ads, SEO, content writing, and WordPress website development.",
+        "yearsOfExperience":  "1-3 years",
+        "socialLinks":  {
+                            "facebook":  "https://www.facebook.com/harun21.hs/",
+                            "linkedin":  "https://www.linkedin.com/in/harunorroshid/",
+                            "instagram":  "https://www.instagram.com/iamharunorroshid/"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Digital Marketing Strategy",
+                           "proficiency":  92
+                       },
+                       {
+                           "category":  "Content Writing \u0026 Strategy",
+                           "proficiency":  92
+                       },
+                       {
+                           "category":  "Web Development (WordPress)",
+                           "proficiency":  85
+                       }
+                   ]
     },
     {
         "id":  7,
