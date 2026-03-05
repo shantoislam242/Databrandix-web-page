@@ -1,5 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
+import Image from "next/image";
 
 const BackToTop = () => {
 	const [isVisible, setIsVisible] = useState(false);
@@ -43,7 +44,13 @@ const BackToTop = () => {
 		>
 			<button id="back_to_top" type="button" className="back-to-top-btn">
 				<span>
-					<i className="tji-rocket"></i>
+					<Image
+						src="/images/back-to-top.png"
+						alt="Back to top"
+						width={36}
+						height={36}
+						className="back-to-top-icon"
+					/>
 				</span>
 			</button>
 		</div>

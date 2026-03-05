@@ -1,53 +1,16 @@
 [
     {
         "id":  1,
-        "name":  "Dianne Russell",
+        "name":  "Ali Hasan Titu",
+        "displayName":  "Titu",
         "desig":  "CEO \u0026 Owner",
-        "img":  "/images/team/team-1.webp"
+        "img":  "/images/team/ceo.png"
     },
     {
         "id":  6,
-        "name":  "Shafat Ahamed",
-        "desig":  "Executive HR \u0026 Operations",
-        "img":  "/images/team/team-2.webp",
-        "shortBio":  "Managing HR operations, administrative coordination, and accounts activities to ensure smooth and efficient day-to-day business performance. I support recruitment and employee management, oversee administrative processes and expense tracking, and maintain financial documentation while collaborating across departments to enhance workflow and productivity.",
-        "professionalSkillsBio":  "Skilled in payroll management, HR operations administration, and recruitment execution with a strong focus on compliance, accuracy, and process efficiency.",
-        "email":  "hr.databrandix@gmail.com",
-        "phone":  "+8801717969432",
-        "workExperienceSummary":  "Background in manufacturing, wellness, and HR service industries in Bangladesh. Expert in Bangladesh Labour Act 2006 compliance, high-volume recruitment, grievance handling, and ERP-based payroll systems.",
-        "yearsOfExperience":  "7+",
-        "socialLinks":  {
-                            "facebook":  "https://www.facebook.com/Databrandix.Official",
-                            "linkedin":  "https://linkedin.com/in/shafat-ahamed-2b0454ab",
-                            "instagram":  "https://www.instagram.com/databrandix.official/",
-                            "x":  "https://x.com/databrandix1"
-                        },
-        "skills":  [
-                       {
-                           "category":  "Payroll Management",
-                           "proficiency":  95
-                       },
-                       {
-                           "category":  "HR Operations \u0026 Administration",
-                           "proficiency":  93
-                       },
-                       {
-                           "category":  "Recruitment \u0026 Talent Acquisition",
-                           "proficiency":  92
-                       }
-                   ]
-    },
-    {
-        "id":  3,
-        "name":  "Cameron William",
-        "desig":  "Marketing Lead",
-        "img":  "/images/team/team-3.webp"
-    },
-    {
-        "id":  4,
         "name":  "Md Arifujjaman",
         "desig":  "Lead Visual Artist",
-        "img":  "/images/team/team-4.webp",
+        "img":  "/images/team/Arifbhaif.png",
         "shortBio":  "I am a creative graphic designer specializing in logos, banners, social media posts, and branding. I turn ideas into visually appealing designs and ensure every project is unique, professional, and impactful for clients.",
         "professionalSkillsBio":  "I focus on creativity, attention to detail, and meeting deadlines to ensure client satisfaction. I have worked with various clients to deliver visually appealing and professional designs that effectively communicate their brand message.",
         "email":  "artistixarif@gmail.com",
@@ -75,16 +38,95 @@
                    ]
     },
     {
-        "id":  5,
-        "name":  "James Anderson",
-        "desig":  "Business Director",
-        "img":  "/images/team/team-5.webp"
+        "id":  2,
+        "name":  "Md Nuruzzaman",
+        "desig":  "Assistant Manager",
+        "img":  "/images/team/akash.png",
+        "shortBio":  "Md. Nuruzzaman is an Assistant Manager at Databrandix, leading strategic content planning and digital campaign execution for Sonargaon University. He specializes in multi-channel marketing, brand positioning, media buying, and performance tracking.",
+        "professionalSkillsBio":  "I have strong expertise in campaign optimization, content planning, copywriting, and collaborating with cross-functional teams to drive measurable business results. I focus on ensuring a strong digital presence and student engagement through data-driven initiatives.",
+        "email":  "work.databrandix01@gmail.com",
+        "phone":  "01992077071",
+        "workExperienceSummary":  "I have 2+ years of experience in digital marketing and creative production. My career includes 8+ months as a Sr. Digital Marketing Executive leading multi-brand campaigns, 6+ months as a Digital Marketing Executive managing paid ads, and 10+ months as a Video Editor creating high-quality marketing and social media content.",
+        "yearsOfExperience":  "2+ years",
+        "socialLinks":  {
+                            "facebook":  "https://www.facebook.com/minhazakash30",
+                            "linkedin":  "https://www.linkedin.com/in/nuruzzamanakash/"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Digital Marketing Strategy",
+                           "proficiency":  95
+                       },
+                       {
+                           "category":  "Content Writing \u0026 Strategy",
+                           "proficiency":  95
+                       },
+                       {
+                           "category":  "Management \u0026 Leadership Skills",
+                           "proficiency":  75
+                       }
+                   ]
     },
     {
-        "id":  2,
+        "id":  4,
+        "name":  "Md. Mehedy Hasan",
+        "desig":  "Project Manager",
+        "img":  "/images/team/mehedi.png",
+        "shortBio":  "Project Manager and Quality Assurance Specialist with over 7 years of experience in workflow optimization, team leadership, and data-driven operations. Expert in Google Sheets automation, KPI development, and dashboard creation.",
+        "professionalSkillsBio":  "Proven track record in building teams, increasing admissions, and enhancing operational efficiency. I specialize in developing KPIs and dashboard systems to improve performance and productivity across education and eCommerce industries.",
+        "email":  "su.databrandix@gmail.com",
+        "phone":  "01761395133",
+        "workExperienceSummary":  "Over 7 years of professional experience in Project Management, Quality Assurance, and Operations. Experienced in leading telemarketing and admission teams, optimizing workflows, and implementing data-driven reporting systems.",
+        "yearsOfExperience":  "7+ years",
+        "socialLinks":  {
+                            "linkedin":  "https://www.linkedin.com/in/mdmehedyhasan-lnk/"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Google Sheets Automation \u0026 Dashboard Development",
+                           "proficiency":  95
+                       },
+                       {
+                           "category":  "Quality Assurance \u0026 KPI Monitoring",
+                           "proficiency":  95
+                       },
+                       {
+                           "category":  "Project Planning \u0026 Team Management",
+                           "proficiency":  90
+                       }
+                   ]
+    },
+    {
+        "id":  5,
+        "name":  "Md. Robin",
+        "desig":  "Director - Finance \u0026 Accounts",
+        "img":  "/images/team/team-5.webp",
+        "shortBio":  "I work as an Executive Accounts at DATABRANDIX, overseeing financial records, reporting, and day-to-day accounting operations. I ensure accuracy, compliance, and structured financial management.",
+        "professionalSkillsBio":  "Detail-oriented Finance Professional skilled in accounts payable/receivable and bank reconciliation. Passionate about leveraging accounting software to optimize financial workflows to support sustainable business growth.",
+        "email":  "niet.databrandix02@gmail.com",
+        "phone":  "01752846434",
+        "workExperienceSummary":  "I have experience in managing financial records and ensuring organizational compliance. My expertise includes handling day-to-day accounting operations and optimizing financial workflows for accuracy and efficiency.",
+        "yearsOfExperience":  "1+ years",
+        "skills":  [
+                       {
+                           "category":  "Financial Reporting",
+                           "proficiency":  80
+                       },
+                       {
+                           "category":  "Accounts Payable \u0026 Receivable",
+                           "proficiency":  90
+                       },
+                       {
+                           "category":  "Microsoft Excel",
+                           "proficiency":  90
+                       }
+                   ]
+    },
+    {
+        "id":  3,
         "name":  "Harun Or Roshid",
         "desig":  "Marketing Lead and Web Developer",
-        "img":  "/images/team/team-6.webp",
+        "img":  "/images/team/fHarun.jpg",
         "shortBio":  "I am a results-driven Digital Marketing Strategist \u0026 Web Developer. I plan and execute data-driven marketing campaigns to improve brand visibility and business growth.",
         "professionalSkillsBio":  "I specialise in content strategy, performance analysis, and AI-powered marketing solutions. I am passionate about leveraging digital tools and analytics to deliver measurable results and long-term success for organisations.",
         "email":  "work.databrandix007@gmail.com",
@@ -113,15 +155,68 @@
     },
     {
         "id":  7,
-        "name":  "Benjamin Reed",
-        "desig":  "Operations Head",
-        "img":  "/images/team/team-7.webp"
+        "name":  "Naymur Rahman",
+        "desig":  "Sr Video Editor",
+        "img":  "/images/team/fnaimur.png",
+        "shortBio":  "I'm a professional video editor specializing in crafting engaging, story-driven content from raw footage. I focus on precise editing, color grading, and sound design to deliver polished, high-impact videos.",
+        "professionalSkillsBio":  "Skilled in managing projects from concept to final delivery while collaborating with creative teams to ensure visually compelling and strategically aligned results. I deliver high-impact videos that meet creative and brand goals.",
+        "email":  "nayimur13back@gmail.com",
+        "phone":  "01799959256",
+        "workExperienceSummary":  "Experienced video editor with a strong background in producing high-quality commercial, digital, and branded content. I have a proven track record of managing projects and collaborating with teams for polished results.",
+        "yearsOfExperience":  "5+ years",
+        "socialLinks":  {
+                            "facebook":  "https://www.facebook.com/nayimurx/",
+                            "linkedin":  "https://www.linkedin.com/in/naymur-rahman-2a2536383"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Video Editing",
+                           "proficiency":  95
+                       },
+                       {
+                           "category":  "Color Grading",
+                           "proficiency":  90
+                       },
+                       {
+                           "category":  "Motion Graphics",
+                           "proficiency":  85
+                       },
+                       {
+                           "category":  "Sound Design \u0026 Mixing",
+                           "proficiency":  88
+                       }
+                   ]
     },
     {
         "id":  8,
-        "name":  "Savannah Nguyen",
-        "desig":  "Chief Executive",
-        "img":  "/images/team/team-8.webp"
+        "name":  "MD Younus",
+        "desig":  "Team Lead (Tele Communication)",
+        "img":  "/images/team/younus.png",
+        "shortBio":  "I am Md. Younus, a Telecommunications Specialist with 10+ years of experience in leading end-to-end operations. I manage inbound calls, strategic lead distribution, and multi-channel communications.",
+        "professionalSkillsBio":  "From handling night-shift operations to preparing precise performance reports, I ensure every task is executed with professional accountability for diverse educational and global franchises.",
+        "email":  "su.databrandix02@gmail.com",
+        "phone":  "01933669966",
+        "workExperienceSummary":  "Over 4 years of experience as a Call Center Executive and Social Media Executive at Jachai.com LTD, GlobalED, Sonargaon University, and Databrandix. Expert in managing operations, lead distribution, and team coordination.",
+        "yearsOfExperience":  "5+ years",
+        "socialLinks":  {
+                            "facebook":  "https://www.facebook.com/sahariyarabiryounus",
+                            "linkedin":  "https://bd.linkedin.com/in/md-younus-085002368",
+                            "instagram":  "https://www.instagram.com/sahariyarabiryounus/"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Client Communication",
+                           "proficiency":  92
+                       },
+                       {
+                           "category":  "Lead Management \u0026 Distribution",
+                           "proficiency":  90
+                       },
+                       {
+                           "category":  "Report Preparation \u0026 Team Coordination",
+                           "proficiency":  85
+                       }
+                   ]
     },
     {
         "id":  9,
@@ -131,14 +226,200 @@
     },
     {
         "id":  10,
-        "name":  "James Anderson",
-        "desig":  "Business Director",
-        "img":  "/images/team/team-5.webp"
+        "name":  "Md. Shanto Islam",
+        "displayName":  "Shanto",
+        "desig":  "Web Developer",
+        "img":  "/images/team/shanto.png",
+        "shortBio":  "I am a Web Developer specializing in building responsive and high-performance web applications using React and Next.js. I focus on turning modern UI/UX designs into clean, scalable frontend solutions.",
+        "professionalSkillsBio":  "Developing responsive and scalable web applications using modern frameworks like React and Next.js. Experienced in UI implementation, performance optimization, and collaborative development workflows.",
+        "email":  "shantoislam1357@gmail.com",
+        "phone":  "01785595259",
+        "workExperienceSummary":  "I focus on turning modern UI/UX designs into clean, scalable frontend solutions while continuously expanding my skills in full-stack and emerging technologies like AR/VR.",
+        "yearsOfExperience":  "1+ years",
+        "socialLinks":  {
+                            "linkedin":  "https://www.linkedin.com/in/shanto-web-dev",
+                            "instagram":  "https://www.instagram.com/the___voldemort/"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Frontend Development",
+                           "proficiency":  90
+                       },
+                       {
+                           "category":  "React / Next.js",
+                           "proficiency":  90
+                       },
+                       {
+                           "category":  "JavaScript",
+                           "proficiency":  88
+                       },
+                       {
+                           "category":  "UI / Responsive Design",
+                           "proficiency":  90
+                       },
+                       {
+                           "category":  "Python / Django",
+                           "proficiency":  78
+                       }
+                   ]
     },
     {
         "id":  11,
-        "name":  "Emma Richardson",
-        "desig":  "Marketing Lead",
-        "img":  "/images/team/team-6.webp"
+        "name":  "Sharmin Akter",
+        "displayName":  "Sharmin",
+        "desig":  "Public Relations Officer",
+        "img":  "/images/team/happyapu.png",
+        "shortBio":  "As a Public Relations Officer at Databandrix, I help strengthen brand reputation by supporting media relations, drafting communication materials, and monitoring public engagement.",
+        "professionalSkillsBio":  "My role focuses on delivering clear, strategic messaging aligned with organizational goals. I am adept at crafting clear messaging and supporting engagement strategies within a data-driven business environment.",
+        "email":  "suadm.data22@gmail.com",
+        "phone":  "+880 1811-467990",
+        "workExperienceSummary":  "Public Relations Officer at Databandrix with hands-on experience in corporate communications, media relations, and brand visibility initiatives. Experienced in delivering strategic messaging to enhance brand reputation.",
+        "yearsOfExperience":  "1 years",
+        "socialLinks":  {
+                            "facebook":  "https://www.facebook.com/share/1CrwuX3vmL/",
+                            "instagram":  "https://www.instagram.com/sharmin.happy.25?igsh=cWx0ZTlibm1qZ2Nk"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Communication",
+                           "proficiency":  90
+                       },
+                       {
+                           "category":  "Strategic Planning",
+                           "proficiency":  86
+                       },
+                       {
+                           "category":  "Event Coordination",
+                           "proficiency":  90
+                       }
+                   ]
+    },
+    {
+        "id":  12,
+        "name":  "Nahiduzzaman Tanvir",
+        "displayName":  "Tanvir",
+        "desig":  "Public Relations Officer",
+        "img":  "/images/team/Tanvir.png",
+        "shortBio":  "I'm Nahiduzzaman Tanvir, a Social Media Executive at GlobalEd. I specialize in managing leads, coordinating student inquiries, and ensuring smooth communication between students and course instructors.",
+        "professionalSkillsBio":  "With experience in follow-ups, data management, and student guidance, I focus on helping learners choose the right course and stay informed through organized, accurate updates. My goal is to create a seamless experience for students.",
+        "email":  "admdatabrandix03@gmail.com",
+        "phone":  "01863690090",
+        "workExperienceSummary":  "My expertise includes guiding prospective students in course selection, managing leads efficiently, and facilitating clear communication between students and instructors. I am committed to delivering an organized, responsive, and student-centered experience.",
+        "yearsOfExperience":  "5+ years",
+        "socialLinks":  {
+                            "facebook":  "https://www.facebook.com/share/186pzTMyKL/",
+                            "linkedin":  "https://www.linkedin.com/in/nahiduzzaman-tanvir-4146372b3/"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Strategic Client Communication",
+                           "proficiency":  94
+                       },
+                       {
+                           "category":  "Data Analysis \u0026 Reporting",
+                           "proficiency":  89
+                       },
+                       {
+                           "category":  "Student Relationship Management",
+                           "proficiency":  94
+                       }
+                   ]
+    },
+    {
+        "id":  13,
+        "name":  "Tanbira Afrin",
+        "displayName":  "Tanbira",
+        "desig":  "Copywriter",
+        "img":  "/images/team/tanbira-apu.png",
+        "shortBio":  "As a Copywriter, I support digital marketing activities by managing social media content, assisting in campaign execution, and maintaining brand presence across online platforms.",
+        "professionalSkillsBio":  "I focus on improving engagement, increasing brand visibility, and contributing to overall digital growth. I have experience in social media optimization, content planning, basic SEO, and performance tracking using web analytics tools.",
+        "email":  "tanbira.databrandix04@gmail.com",
+        "phone":  "01771089518",
+        "workExperienceSummary":  "I am a Digital Marketing professional with experience in social media management, content creation, and online brand development. I have worked on optimizing platforms, supporting campaign execution, and maintaining consistent brand communication.",
+        "yearsOfExperience":  "1 year",
+        "socialLinks":  {
+                            "linkedin":  "www.linkedin.com/in/tanbira-afrin"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Creative Writing \u0026 Storytelling",
+                           "proficiency":  95
+                       },
+                       {
+                           "category":  "Brand Voice \u0026 Identity",
+                           "proficiency":  90
+                       },
+                       {
+                           "category":  "Ad Copywriting (Social Media/Search)",
+                           "proficiency":  92
+                       }
+                   ]
+    },
+    {
+        "id":  14,
+        "name":  "Nasrin Nahar",
+        "displayName":  "Nasrin",
+        "desig":  "Visual artist",
+        "img":  "/images/team/NasrinFinal.png",
+        "shortBio":  "I am a passionate Graphic Designer specializing in both Print and Digital Media. I create impactful visual solutions including posters, thumbnails, carousel designs, Instagram posts, and various branding materials.",
+        "professionalSkillsBio":  "From print layouts to engaging social media content, I focus on clean aesthetics, strong typography, and modern design trends to help brands communicate effectively and stand out in the market.",
+        "email":  "nasrinnaharbristi786@gmail.com",
+        "phone":  "01610435437",
+        "workExperienceSummary":  "Professional Graphic Designer with 3 years of hands-on experience in Print \u0026 Digital Media. I transform ideas into impactful visual content - from high-quality print materials to engaging social media creatives. My goal is to deliver clean, modern, and result-driven designs.",
+        "yearsOfExperience":  "3+ years",
+        "socialLinks":  {
+                            "facebook":  "https://www.facebook.com/nasrinnaharbristi",
+                            "linkedin":  "https://www.linkedin.com/in/nasrinnaharbristi/"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Adobe Photoshop",
+                           "proficiency":  96
+                       },
+                       {
+                           "category":  "Adobe Illustrator",
+                           "proficiency":  94
+                       },
+                       {
+                           "category":  "Adobe InDesign",
+                           "proficiency":  88
+                       },
+                       {
+                           "category":  "Figma",
+                           "proficiency":  92
+                       }
+                   ]
+    },
+    {
+        "id":  15,
+        "name":  "Shafat Ahamed",
+        "desig":  "Sr. HR Executive",
+        "img":  "/images/team/hr1.png",
+        "shortBio":  "Managing HR operations, administrative coordination, and accounts activities to ensure smooth and efficient day-to-day business performance. I support recruitment and employee management, oversee administrative processes and expense tracking, and maintain financial documentation while collaborating across departments to enhance workflow and productivity.",
+        "professionalSkillsBio":  "Skilled in payroll management, HR operations administration, and recruitment execution with a strong focus on compliance, accuracy, and process efficiency.",
+        "email":  "hr.databrandix@gmail.com",
+        "phone":  "+8801717969432",
+        "workExperienceSummary":  "Background in manufacturing, wellness, and HR service industries in Bangladesh. Expert in Bangladesh Labour Act 2006 compliance, high-volume recruitment, grievance handling, and ERP-based payroll systems.",
+        "yearsOfExperience":  "7+",
+        "socialLinks":  {
+                            "facebook":  "https://www.facebook.com/Databrandix.Official",
+                            "linkedin":  "https://linkedin.com/in/shafat-ahamed-2b0454ab",
+                            "instagram":  "https://www.instagram.com/databrandix.official/",
+                            "x":  "https://x.com/databrandix1"
+                        },
+        "skills":  [
+                       {
+                           "category":  "Payroll Management",
+                           "proficiency":  95
+                       },
+                       {
+                           "category":  "HR Operations \u0026 Administration",
+                           "proficiency":  93
+                       },
+                       {
+                           "category":  "Recruitment \u0026 Talent Acquisition",
+                           "proficiency":  92
+                       }
+                   ]
     }
 ]

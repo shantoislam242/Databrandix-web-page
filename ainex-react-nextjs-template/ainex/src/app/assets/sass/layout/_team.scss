@@ -206,6 +206,14 @@ START: Team CSS
 		&::after {
 			opacity: 0.2;
 		}
+		.title {
+			a {
+				color: var(--tj-color-common-white);
+			}
+		}
+		.designation {
+			color: var(--tj-color-common-white);
+		}
 		.share-icon {
 			transform: rotate(360deg);
 		}

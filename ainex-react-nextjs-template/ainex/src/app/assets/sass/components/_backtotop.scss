@@ -53,11 +53,13 @@ START: Back to top CSS
 			justify-content: center;
 			width: 56px;
 			height: 56px;
-			font-size: 36px;
 			color: var(--tj-color-common-white);
 			background-color: var(--tj-color-theme-primary);
 			border-radius: 50%;
-			i {
+			.back-to-top-icon {
+				width: 36px;
+				height: 36px;
+				object-fit: contain;
 				animation: bounceTwice 3s linear infinite;
 			}
 		}

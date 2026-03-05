@@ -42,65 +42,17 @@ const Navbar = () => {
 						</ul>
 					</li>
 					{/* Services Menu */}
-					<li
-						className={`has-dropdown ${
-							serviceNav?.isActive ? "current-menu-ancestor" : ""
-						}`}
-					>
+					<li className={serviceNav?.isActive ? "current-menu-ancestor" : ""}>
 						<Link href={serviceNav?.path ?? "#"}>{serviceNav?.name}</Link>
-						<ul className="sub-menu">
-							{serviceNav?.submenu?.map((item, idx: number) => (
-								<li
-									key={idx}
-									className={item?.isActive ? "current-menu-item" : ""}
-								>
-									<Link href={item?.path ?? "/blog"}>
-										{item?.name ?? "Blog"}
-									</Link>
-								</li>
-							))}
-						</ul>
 					</li>
 					{/* Portfolio Menu */}
-					<li
-						className={`has-dropdown ${
-							portfolioNav?.isActive ? "current-menu-ancestor" : ""
-						}`}
-					>
+					<li className={portfolioNav?.isActive ? "current-menu-ancestor" : ""}>
 						<Link href={portfolioNav?.path ?? "#"}>{portfolioNav?.name}</Link>
-						<ul className="sub-menu">
-							{portfolioNav?.submenu?.map((item, idx: number) => (
-								<li
-									key={idx}
-									className={item?.isActive ? "current-menu-item" : ""}
-								>
-									<Link href={item?.path ?? "/portfolios"}>
-										{item?.name ?? "Portfolio"}
-									</Link>
-								</li>
-							))}
-						</ul>
 					</li>
 
 					{/* Blog Menu */}
-					<li
-						className={`has-dropdown ${
-							blogNav?.isActive ? "current-menu-ancestor" : ""
-						}`}
-					>
+					<li className={blogNav?.isActive ? "current-menu-ancestor" : ""}>
 						<Link href={blogNav?.path ?? "#"}>{blogNav?.name}</Link>
-						<ul className="sub-menu">
-							{blogNav?.submenu?.map((item, idx: number) => (
-								<li
-									key={idx}
-									className={item?.isActive ? "current-menu-item" : ""}
-								>
-									<Link href={item?.path ?? "/blog"}>
-										{item?.name ?? "Blog"}
-									</Link>
-								</li>
-							))}
-						</ul>
 					</li>
 
 					{/* Contact Menu */}

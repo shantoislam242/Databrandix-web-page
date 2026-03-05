@@ -19,6 +19,7 @@ const TeamDetails2 = ({ currentItemId }: PropType) => {
 	const currentItem = items?.find(({ id }) => currentItemId === id);
 	const {
 		name,
+		displayName,
 		desig,
 		img = "/images/team/team-1.webp",
 		shortBio,
@@ -31,10 +32,12 @@ const TeamDetails2 = ({ currentItemId }: PropType) => {
 		skills,
 	} = currentItem || {};
 	const nameParts = name?.trim().split(/\s+/).filter(Boolean) || [];
-	const displayName =
-		nameParts[0]?.toLowerCase() === "md" && nameParts[1]
+	const normalizedFirstPart = (nameParts[0] || "").toLowerCase().replace(/\./g, "");
+	const fallbackDisplayName =
+		normalizedFirstPart === "md" && nameParts[1]
 			? nameParts[1]
 			: nameParts[0] || name || "";
+	const headingDisplayName = displayName || fallbackDisplayName;
 
 	const phoneHref = phone ? `tel:${phone.replace(/\s+/g, "")}` : "tel:10095447818";
 	const hasCustomSocialLinks = Boolean(
@@ -71,7 +74,7 @@ const TeamDetails2 = ({ currentItemId }: PropType) => {
 							<h2 className="team-details__name">
 								Hello, I am{" "}
 								<span style={{ color: "#fff" }}>
-									{displayName}
+									{headingDisplayName}
 								</span>
 							</h2>
 							<span className="team-details__desig">{desig}</span>

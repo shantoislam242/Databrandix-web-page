@@ -15,6 +15,7 @@ interface TeamSkillType {
 export interface TeamSingleType {
 	id: number;
 	name: string;
+	displayName?: string;
 	img: string;
 	desig: string;
 	shortBio?: string;
