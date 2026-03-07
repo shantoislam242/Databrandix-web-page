@@ -162,6 +162,40 @@ START: Theme Slider CSS
 				font-size: 16px;
 			}
 		}
+		.slider-meta-area {
+			display: flex;
+			flex: 1;
+			flex-direction: column;
+			align-items: flex-start;
+			justify-content: flex-end;
+			gap: 18px;
+			max-width: 430px;
+			width: 100%;
+			margin-inline-start: auto;
+			margin-bottom: 38px;
+			.slider-desc {
+				max-width: 100%;
+				margin-bottom: 0;
+				text-align: justify;
+				text-justify: inter-word;
+				text-wrap: balance;
+			}
+			@media #{$md, $sm, $xs} {
+				width: 100%;
+				flex-direction: column;
+				align-items: center;
+				gap: 12px;
+				.slider-desc {
+					text-align: justify;
+				}
+			}
+			.slider-btn {
+				margin-bottom: 0;
+				width: 100%;
+				display: flex;
+				justify-content: flex-start;
+			}
+		}
 		.slider-btn {
 			margin-bottom: 25px;
 			.tj-primary-btn {
@@ -194,6 +228,46 @@ START: Theme Slider CSS
 					padding: 10px 15px;
 				}
 			}
+			.hero-cta-btn {
+				height: 72px;
+				padding: 8px 16px;
+				.btn-text {
+					font-size: 16px;
+				}
+				.btn-icon {
+					width: 38px;
+					height: 38px;
+					font-size: 18px;
+					&.h-icon {
+						left: -38px;
+					}
+				}
+				.btn-inner {
+					gap: 8px;
+					padding-left: 14px;
+					&::before {
+						width: 38px;
+						height: 38px;
+					}
+				}
+				&:hover {
+					.btn-inner {
+						&::before {
+							width: calc(100% - 38px);
+						}
+					}
+					.btn-icon {
+						transform: translateX(38px);
+					}
+				}
+				@media #{$lg, $md, $sm, $xs} {
+					height: 64px;
+					padding: 6px 14px;
+					.btn-text {
+						font-size: 15px;
+					}
+				}
+			}
 			@media #{$lg} {
 				margin-top: 20px;
 			}
@@ -202,7 +276,7 @@ START: Theme Slider CSS
 			}
 		}
 		@media #{$lg} {
-			flex-wrap: wrap;
+			flex-wrap: nowrap;
 			gap: 10px;
 		}
 		@media #{$md, $sm, $xs} {

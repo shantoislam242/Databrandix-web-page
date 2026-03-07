@@ -7,27 +7,27 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const Hero3 = () => {
 	const items = [
 		{
-			title: "Explore Master Future Intelligence.",
-			subtitle: "AI transforms everything.",
-			desc: "Specialize in delivering AI-powered solution revolutionize the businesses.",
+			title: "Build\nSmarter\u00A0Growth\nWith Data",
+			subtitle: "ENGINEERED BUSINESS GROWTH",
+			desc: "Powered by data intelligence,\nAI automation and integrated marketing systems.",
 			img: "/images/hero/slider-1.webp",
-			linkText: "Learn More",
+			linkText: "Explore Our Approach",
 			url: "/contact",
 		},
 		{
-			title: "Explore Master Future Intelligence.",
-			subtitle: "AI transforms everything.",
-			desc: "Specialize in delivering AI-powered solution revolutionize the businesses.",
+			title: "Build\nSmarter\u00A0Growth\nWith Data",
+			subtitle: "ENGINEERED BUSINESS GROWTH",
+			desc: "Powered by data intelligence,\nAI automation and integrated marketing systems.",
 			img: "/images/hero/slider-2.webp",
-			linkText: "Learn More",
+			linkText: "Explore Our Approach",
 			url: "/contact",
 		},
 		{
-			title: "Explore Master Future Intelligence.",
-			subtitle: "AI transforms everything.",
-			desc: "Specialize in delivering AI-powered solution revolutionize the businesses.",
+			title: "Build\nSmarter\u00A0Growth\nWith Data",
+			subtitle: "ENGINEERED BUSINESS GROWTH",
+			desc: "Powered by data intelligence,\nAI automation and integrated marketing systems.",
 			img: "/images/hero/slider-3.webp",
-			linkText: "Learn More",
+			linkText: "Explore Our Approach",
 			url: "/contact",
 		},
 	];
@@ -83,11 +83,21 @@ const Hero3 = () => {
 													<i className="tji-subtitle-2"></i>
 													{subtitle}
 												</span>
-												<h1 className="slider-title">{title}</h1>
+												<h1 className="slider-title" style={{ whiteSpace: "pre-line" }}>
+													{title}
+												</h1>
 											</div>
-											<div className="slider-desc">{desc}</div>
-											<div className="slider-btn">
-												<ButtonPrimary text={linkText} url={url} />
+											<div className="slider-meta-area">
+												<div className="slider-desc" style={{ whiteSpace: "pre-line" }}>
+													{desc}
+												</div>
+												<div className="slider-btn">
+													<ButtonPrimary
+														className="hero-cta-btn"
+														text={linkText}
+														url={url}
+													/>
+												</div>
 											</div>
 										</div>
 									</div>
