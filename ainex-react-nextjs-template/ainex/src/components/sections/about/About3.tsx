@@ -13,31 +13,29 @@ const About3 = () => {
 						<div className="about-content-area style-3">
 							<div className="sec-heading style-3">
 								<span className="sub-title wow fadeInUp" data-wow-delay=".3s">
-									<i className="tji-subtitle-2"></i>About our Company
+									<i className="tji-subtitle-2"></i>ABOUT DATABRANDIX
 								</span>
 								<h2 className="sec-title title-highlight">
-									Driving Innovations Through Our and Technology, Delivering Our
-									Expert Solutions are Best that Transform Businesses.
+									Engineering Intelligent Growth Systems for Modern Businesses
 								</h2>
 							</div>
 							<div className="about-bottom-area-3">
 								<div className="experience-wrap">
-									<FunfactSingle currentValue={13} sup="+" type={2} />
-									<h6 className="experience-text">
-										We have 10+ Years of working Experiences.
+									<FunfactSingle currentValue={30} sup="+" type={2} />
+									<h6 className="experience-text organizations-text">
+										Organizations Supported Across Marketing, Data &amp; Automation.
 									</h6>
 								</div>
 								<div className="about-content">
 									<p className="desc">
-										Our team of experts combines innovation, and strategy to
-										deliver custom AI-driven tools and services empower
-										transformation.
+										We design intelligent growth systems that combine marketing,
+										data, AI, and technology to drive measurable business growth.
 									</p>
 									<ul className="list-style-1 text-white">
-										<li>Artificial Intelligence</li>
-										<li>Identity Management</li>
-										<li>Local Insights</li>
-										<li>Business Analytics</li>
+										<li>Data-Driven Marketing Strategy</li>
+										<li>AI Agents &amp; Workflow Automation</li>
+										<li>Custom Web &amp; System Development</li>
+										<li>Full-Stack Analytics &amp; Decision Intelligence</li>
 									</ul>
 									<ButtonPrimary text="Read More" url="/about" />
 								</div>

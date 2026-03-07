@@ -141,6 +141,14 @@ START: About CSS
 		}
 		.experience-wrap {
 			width: 39%;
+			.experience-year {
+				display: inline-block;
+				white-space: nowrap;
+			}
+			.organizations-text {
+				max-width: 220px;
+				white-space: normal;
+			}
 			@media #{$lg} {
 				width: 40%;
 			}
@@ -151,7 +159,7 @@ START: About CSS
 			}
 		}
 		.about-content {
-			max-width: 385px;
+			max-width: 440px;
 			width: 100%;
 			padding-inline-start: 60px;
 			.desc {
@@ -164,7 +172,7 @@ START: About CSS
 				padding-inline-start: 50px;
 			}
 			@media #{$lg} {
-				max-width: 300px;
+				max-width: 360px;
 				padding-inline-start: 40px;
 			}
 			@media #{$sm,$xs} {
@@ -528,25 +536,33 @@ START: About CSS
 .experience {
 	&-year {
 		color: var(--tj-color-theme-primary);
-		font-size: 254px;
+		font-size: 220px;
 		line-height: 0.8;
 		letter-spacing: -0.03em;
 		font-family: var(--tj-ff-heading);
 		font-weight: var(--tj-fw-regular);
 		margin-bottom: 25px;
+		display: inline-flex;
+		align-items: flex-start;
+		gap: 4px;
+		.counter {
+			line-height: 1;
+		}
 		sup {
-			font-size: 0.189em;
+			font-size: 0.15em;
+			line-height: 1;
 			vertical-align: top;
-			top: 0.35em;
+			position: relative;
+			top: 0.12em;
 		}
 		@media #{$xl} {
-			font-size: 230px;
+			font-size: 210px;
 		}
 		@media #{$lg} {
-			font-size: 190px;
+			font-size: 175px;
 		}
 		@media #{$sm,$xs} {
-			font-size: 170px;
+			font-size: 150px;
 			margin-bottom: 0;
 		}
 	}
