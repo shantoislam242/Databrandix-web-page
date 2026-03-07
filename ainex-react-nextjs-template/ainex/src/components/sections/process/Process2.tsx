@@ -5,20 +5,20 @@ const Process2 = () => {
 		{
 			id: 1,
 			iconName: "tji-discovery",
-			title: "Discovery & Strategy",
-			desc: "Understanding client needs, defining goals, and designing tailored our AI solutions. Building, training deploying into existing.",
+			title: "Discovery & Insight",
+			desc: "We analyze your business, marketing performance, and operational data to identify growth opportunities.",
 		},
 		{
 			id: 2,
 			iconName: "tji-development",
-			title: "Development & Integration",
-			desc: "Understanding client needs, defining goals, and designing tailored our AI solutions. Building, training deploying into existing.",
+			title: "System Design & Development",
+			desc: "We build integrated systems using marketing strategy, AI automation, analytics, and technology.",
 		},
 		{
 			id: 3,
 			iconName: "tji-support",
-			title: "Optimization & Support",
-			desc: "Understanding client needs, defining goals, and designing tailored our AI solutions. Building, training deploying into existing.",
+			title: "Optimization & Growth",
+			desc: "We monitor performance, optimize systems, and scale strategies for sustainable business growth.",
 		},
 	];
 	return (
@@ -28,10 +28,10 @@ const Process2 = () => {
 					<div className="col-12">
 						<div className="sec-heading sec-heading-centered style-3">
 							<span className="sub-title wow fadeInUp" data-wow-delay="0.3s">
-								<i className="tji-subtitle-2"></i>How Its Work
+								<i className="tji-subtitle-2"></i>HOW WE WORK
 							</span>
 							<h2 className="sec-title text-anim">
-								Building Success, One Step at a Time
+								From Insight to Scalable Growth Systems
 							</h2>
 						</div>
 					</div>
