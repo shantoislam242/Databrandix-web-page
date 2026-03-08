@@ -1,7 +1,7 @@
 [
 	{
 		"id": 1,
-		"title": "Data-Driven Growth System",
+		"title": "Full Stack Digital Marketing",
 		"img": "/images/service/service-1.webp",
 		"img2": "/images/service/service-details-1.webp",
 		"iconName": "tji-service-1",
@@ -82,23 +82,82 @@
 	},
 	{
 		"id": 2,
-		"title": "Custom Technology",
+		"title": "Web Scraping",
 		"img": "/images/service/service-2.webp",
 		"img2": "/images/service/service-details-2.webp",
 		"iconName": "tji-service-1",
 		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"details": {
+			"heroTitle": "Web Scraping & Intelligence Collection. Built for Business Decisions.",
+			"introParagraphs": [
+				"We design custom web scraping systems built around the specific data needs of your business. Using Python, Selenium, and proprietary scraping frameworks, we collect structured business data from any domain: competitor pricing, market listings, lead databases, product catalogs, or industry intelligence. Every dataset we deliver is clean, structured, and ready for decision making. We do not hand you raw dumps. We deliver data that your business can act on.",
+				"Before building any scraping system, we first understand what decision you are trying to make. We analyze what data exists, where it lives, how frequently it changes, and what format serves your workflow. From that understanding, we build a collection architecture that fits your specific use case rather than a generic crawler pointed at random sources. The objective is not data volume. The objective is decision intelligence: collected consistently, delivered cleanly, and aligned to your business goals."
+			],
+			"leftColumnPoints": [
+				"Custom scraper design and development",
+				"Multi-domain data collection",
+				"Structured and clean data delivery"
+			],
+			"rightColumnPoints": [
+				"Business-specific data architecture",
+				"Automated and scheduled collection",
+				"Python-based framework with full control"
+			],
+			"servicesRangeTitle": "Our Range of Web Scraping Services",
+			"servicesRangeDesc": "We do not offer one-size-fits-all crawlers. Every scraping system we build is designed around your specific data objective: what you need, how often you need it, and how it connects to your business decisions. Below is what we build and how each part contributes to your intelligence infrastructure.",
+			"sectionA": [
+				{
+					"title": "Custom Scraper Development",
+					"desc": "Python, Selenium, custom frameworks. End-to-end scraper design, site-specific extraction logic, anti-block handling, dynamic content support, and scheduled automation."
+				},
+				{
+					"title": "Business Domain Data Collection",
+					"desc": "E-commerce, real estate, finance, education, jobs, healthcare. Competitor pricing, market listings, product catalogs, lead data, and industry trends delivered in your preferred format."
+				},
+				{
+					"title": "Data Cleaning and Structuring",
+					"desc": "CSV, JSON, Excel, database integration. Raw data processing, duplicate removal, normalization, formatting, and direct delivery to your database or dashboard."
+				}
+			],
+			"sectionB": [
+				{
+					"title": "Requirement and Scope Analysis",
+					"desc": "Data source identification, frequency planning, format specification, legal compliance review, and delivery pipeline design."
+				},
+				{
+					"title": "Development and Deployment",
+					"desc": "Scraper build, Selenium framework setup, proxy and rotation management, error handling, test runs, and live deployment."
+				},
+				{
+					"title": "Monitoring and Maintenance",
+					"desc": "Scheduled run management, site change detection, error alerts, data quality checks, and continuous updates as source structure changes."
+				},
+				{
+					"title": "Intelligence Reporting",
+					"desc": "Collected data transformed into structured reports including market comparison, pricing trends, lead lists, and competitive analysis delivered on schedule."
+				}
+			]
+		},
 		"faq": [
 			{
-				"title": "Do you build software from scratch?",
-				"desc": "Yes. We design and develop custom web apps, internal dashboards, and business tools based on your exact requirements."
+				"title": "What kind of data can you collect?",
+				"desc": "We collect data from any publicly accessible web source including e-commerce platforms, job boards, real estate listings, financial data, news, directories, and competitor websites. If the data exists on the web, we can build a system to collect it."
 			},
 			{
-				"title": "Will the solution scale with our business growth?",
-				"desc": "We use scalable architecture and modular design so your system can handle more users, features, and data over time."
+				"title": "How do you handle websites that block scrapers?",
+				"desc": "We use rotating proxies, request throttling, browser simulation via Selenium, and custom headers to handle anti-scraping measures. For complex sites, we build site-specific logic that adapts to structural changes."
 			},
 			{
-				"title": "Can you modernize an old legacy system?",
-				"desc": "Absolutely. We audit legacy systems, refactor critical components, and migrate them to modern stacks with minimal downtime."
+				"title": "How is the data delivered?",
+				"desc": "In whatever format your workflow requires: CSV, JSON, Excel, Google Sheets, or direct database integration. We also build scheduled pipelines that deliver fresh data automatically on your defined frequency."
+			},
+			{
+				"title": "How often can data be collected?",
+				"desc": "Depending on the source and your requirement, collection can run hourly, daily, weekly, or on demand. We build automated schedulers so the system runs without manual intervention."
+			},
+			{
+				"title": "Is web scraping legal?",
+				"desc": "We only collect publicly available data and operate within ethical and legal boundaries. Before any project begins, we review the target source, terms of service, and applicable data regulations to ensure full compliance."
 			}
 		]
 	},
