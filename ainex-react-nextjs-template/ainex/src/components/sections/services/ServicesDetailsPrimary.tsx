@@ -68,7 +68,7 @@ const ServicesDetailsPrimary = ({ option, items, currentItem }: PropType) => {
 
 	return (
 		<section className="tj-blog-section section-gap">
-			<div className="container">
+			<div className="container sidebar-sticky-container">
 				<div className="row row-gap-5">
 					<div className="col-lg-8">
 						<div className="post-details-wrapper">
@@ -153,22 +153,11 @@ const ServicesDetailsPrimary = ({ option, items, currentItem }: PropType) => {
 										</div>
 									))}
 								</div>
-								<h3>Frequently asked questions</h3>
-								<BootstrapWrapper>
-									<div className="accordion tj-faq style-2" id="faqOne">
-										{faqItems?.length
-											? faqItems.map((item, idx) => (
-													<FaqItem key={idx} item={item} idx={idx} />
-											  ))
-											: ""}
-									</div>
-								</BootstrapWrapper>
 							</div>
-							<PrevNextNav option={option} itemsUrl="/services" />
 						</div>
 					</div>
 					<div className="col-lg-4">
-						<div className="tj-main-sidebar sticky-lg-top">
+						<div className="tj-main-sidebar sidebar-sticky service-sidebar-sticky-delayed">
 							<div className="tj-sidebar-widget service-categories">
 								<h4 className="widget-title">More services</h4>
 								<ul>
@@ -191,6 +180,27 @@ const ServicesDetailsPrimary = ({ option, items, currentItem }: PropType) => {
 							</div>
 							<div className="tj-sidebar-widget widget-feature-item">
 								<CtaSidebar />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div className="row">
+					<div className="col-lg-8">
+						<div className="post-details-wrapper">
+							<div className="blog-text">
+								<h3>Frequently asked questions</h3>
+								<BootstrapWrapper>
+									<div className="accordion tj-faq style-2" id="faqOne">
+										{faqItems?.length
+											? faqItems.map((item, idx) => (
+													<FaqItem key={idx} item={item} idx={idx} />
+											  ))
+											: ""}
+									</div>
+								</BootstrapWrapper>
+								<div className="service-details-sticky-end">
+									<PrevNextNav option={option} itemsUrl="/services" />
+								</div>
 							</div>
 						</div>
 					</div>

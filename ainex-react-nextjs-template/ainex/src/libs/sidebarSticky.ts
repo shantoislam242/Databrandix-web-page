@@ -12,6 +12,8 @@ const sidebarSticky = (): void => {
 				const mediaMatch = gsap.matchMedia();
 				mediaMatch.add("(min-width: 992px)", () => {
 					const startOffset = 30;
+					const delayedStartOffset = 210;
+					const serviceStickyTop = 130;
 					const lastIdx = panels.length - 1;
 					const lastPanel = panels[lastIdx];
 					const paddingBottom =
@@ -22,19 +24,36 @@ const sidebarSticky = (): void => {
 					const aboutArea = container.querySelector<HTMLElement>(".about-area");
 					panels.forEach((panel: HTMLElement) => {
 						const isAboutPanel = panel.classList.contains("sidebar-sticky-about");
+						const isDelayedServiceSidebar = panel.classList.contains(
+							"service-sidebar-sticky-delayed"
+						);
+						const serviceStickyEnd = container.querySelector<HTMLElement>(
+							".service-details-sticky-end"
+						);
+						const serviceMaxShift = () => {
+							const availableHeight = window.innerHeight - serviceStickyTop;
+							return Math.max(panel.offsetHeight - availableHeight, 0);
+						};
 						gsap.to(panel, {
+							y: isDelayedServiceSidebar ? () => -serviceMaxShift() : 0,
 							scrollTrigger: {
 								trigger: panel,
-								start: `top-=${startOffset} top`,
-								endTrigger: isAboutPanel
-									? aboutReadMoreButton || aboutArea || container
-									: container,
-								end: isAboutPanel
+								start: isDelayedServiceSidebar
+									? `top+=${delayedStartOffset} top+=${serviceStickyTop}`
+									: `top-=${startOffset} top`,
+								endTrigger: isDelayedServiceSidebar
+									? serviceStickyEnd || container
+									: isAboutPanel
+										? aboutReadMoreButton || aboutArea || container
+										: container,
+								end: isDelayedServiceSidebar
 									? "bottom bottom"
-									: () =>
-											`bottom top+=${
-												lastPanel.offsetHeight + startOffset + paddingBottom
-											}`,
+									: isAboutPanel
+										? "bottom bottom"
+										: () =>
+												`bottom top+=${
+													lastPanel.offsetHeight + startOffset + paddingBottom
+												}`,
 								pin: true,
 								pinSpacing: false,
 								scrub: true,
