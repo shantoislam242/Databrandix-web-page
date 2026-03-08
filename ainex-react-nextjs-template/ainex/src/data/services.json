@@ -1,11 +1,84 @@
 [
 	{
 		"id": 1,
-		"title": "AI-Powered Solutions",
+		"title": "Data-Driven Growth System",
 		"img": "/images/service/service-1.webp",
 		"img2": "/images/service/service-details-1.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"details": {
+			"heroTitle": "Data-Driven Growth Systems. One Architecture. Measurable Outcomes.",
+			"introParagraphs": [
+				"We design data-driven marketing systems built around the specific growth objectives of your business. From paid media across Meta, Google, TikTok, and LinkedIn to SEO, GEO optimization, and performance analytics, every channel we operate is connected to a single measurable outcome. Whether your goal is generating qualified leads, increasing enrollment, or building sustainable organic visibility, every decision is backed by data and every initiative is measured against real business targets. We do not run activity for reporting. We take responsibility for outcomes.",
+				"Before launching any campaign, we first examine where your business actually stands. We analyze what is working, where performance breaks down, and where growth opportunities exist. From that understanding, we build a system that fits your specific context rather than applying a generic marketing template. The objective is not short-term performance spikes. The objective is to build a marketing system that continues to improve, adapts to data, and supports sustainable growth in an increasingly competitive and data-driven market."
+			],
+			"leftColumnPoints": [
+				"Data-driven strategy design",
+				"Multi-platform media execution",
+				"Weekly performance tracking"
+			],
+			"rightColumnPoints": [
+				"Structured growth architecture",
+				"Outcome-based decision making",
+				"Full-funnel analytics and attribution"
+			],
+			"servicesRangeTitle": "Our Range of Digital Marketing Services",
+			"servicesRangeDesc": "We do not offer isolated services charged by platform or task. Every marketing service we provide is part of a connected system where paid media, search visibility, and performance analytics work together toward a single business objective. Below is what we operate, and how each part contributes to your growth.",
+			"sectionA": [
+				{
+					"title": "Paid Media",
+					"desc": "Meta Ads, Google Ads, TikTok Ads, LinkedIn Ads, and YouTube Ads with campaign strategy, audience targeting, A/B testing, budget optimization, and weekly performance reporting."
+				},
+				{
+					"title": "Search and Visibility SEO, GEO Optimization",
+					"desc": "Keyword strategy, technical SEO, content optimization, AI search visibility across ChatGPT, Perplexity, and Gemini, with ranking tracking."
+				},
+				{
+					"title": "Analytics and Intelligence",
+					"desc": "GA4, conversion tracking, reporting setup, UTM structure, attribution modeling, Looker Studio dashboard, weekly insight reports, and decision-led analysis."
+				}
+			],
+			"sectionB": [
+				{
+					"title": "Strategy and Planning",
+					"desc": "Audience research, channel selection, campaign architecture, goal setting, and KPI definition."
+				},
+				{
+					"title": "Execution and Management",
+					"desc": "Campaign setup, creative briefs, ad management, SEO execution, content publishing, and platform operations."
+				},
+				{
+					"title": "Tracking and Optimization",
+					"desc": "Performance monitoring, A/B testing, budget reallocation, weekly reporting, and continuous improvement."
+				},
+				{
+					"title": "Social Media Management",
+					"desc": "Facebook, Instagram, LinkedIn, TikTok, and YouTube content creation, scheduling, community management, organic growth, and platform-specific strategy."
+				}
+			]
+		},
+		"faq": [
+			{
+				"title": "Do you manage all platforms or can we choose specific channels?",
+				"desc": "We assess your business objective first and recommend the channels that make the most sense for your goals. You are not required to run on every platform. The right channel with the right strategy always outperforms being everywhere at once."
+			},
+			{
+				"title": "How do you measure success beyond impressions and reach?",
+				"desc": "We track metrics that connect directly to business outcomes: qualified lead volume, cost per lead, lead-to-conversion rate, and revenue attribution. Impressions and reach are reported but never treated as success indicators on their own."
+			},
+			{
+				"title": "What does your reporting process look like?",
+				"desc": "You receive a weekly performance update that includes what changed, why it changed, what it means, and what we are doing about it. Reports are decision tools, not activity logs."
+			},
+			{
+				"title": "How long does it take to see results?",
+				"desc": "Paid media campaigns typically produce initial performance data within two to four weeks. SEO and GEO optimization work on a three to six month timeline. From day one, we track every data point and share weekly updates so you always know where things stand."
+			},
+			{
+				"title": "What makes Databrandix different from a standard digital marketing agency?",
+				"desc": "Most agencies execute tasks and submit reports. We integrate marketing with your business operations, set targets at the start of every month, track them every week, and take responsibility for outcomes. If something is not working, we tell you before it becomes a problem."
+			}
+		]
 	},
 	{
 		"id": 2,
@@ -13,7 +86,21 @@
 		"img": "/images/service/service-2.webp",
 		"img2": "/images/service/service-details-2.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"faq": [
+			{
+				"title": "Do you build software from scratch?",
+				"desc": "Yes. We design and develop custom web apps, internal dashboards, and business tools based on your exact requirements."
+			},
+			{
+				"title": "Will the solution scale with our business growth?",
+				"desc": "We use scalable architecture and modular design so your system can handle more users, features, and data over time."
+			},
+			{
+				"title": "Can you modernize an old legacy system?",
+				"desc": "Absolutely. We audit legacy systems, refactor critical components, and migrate them to modern stacks with minimal downtime."
+			}
+		]
 	},
 	{
 		"id": 3,
@@ -21,7 +108,21 @@
 		"img": "/images/service/service-3.webp",
 		"img2": "/images/service/service-details-3.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"faq": [
+			{
+				"title": "What can predictive analytics help us forecast?",
+				"desc": "It can forecast sales, customer churn, inventory demand, and operational risks using your historical and real-time data."
+			},
+			{
+				"title": "How accurate are the predictions?",
+				"desc": "Accuracy depends on data quality and business context. We validate models with benchmarks and continuously improve performance."
+			},
+			{
+				"title": "Do you provide dashboards for insights?",
+				"desc": "Yes. We deliver clear dashboards and alerts so decision-makers can act quickly on predicted trends and anomalies."
+			}
+		]
 	},
 	{
 		"id": 4,
@@ -29,7 +130,21 @@
 		"img": "/images/service/service-4.webp",
 		"img2": "/images/service/service-details-4.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"faq": [
+			{
+				"title": "Which ML models do you work with?",
+				"desc": "We work with supervised, unsupervised, and deep learning models based on use case, data volume, and performance goals."
+			},
+			{
+				"title": "Can you train models on our private data?",
+				"desc": "Yes. We set up secure training pipelines and data governance controls to protect sensitive information during model training."
+			},
+			{
+				"title": "Do you support model monitoring after launch?",
+				"desc": "Yes. We monitor drift, accuracy, and latency, then retrain and optimize models to keep results reliable over time."
+			}
+		]
 	},
 	{
 		"id": 5,
@@ -37,7 +152,21 @@
 		"img": "/images/service/service-5.webp",
 		"img2": "/images/service/service-details-5.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"faq": [
+			{
+				"title": "What vision-based use cases do you support?",
+				"desc": "We support object detection, quality inspection, face recognition, document parsing, and real-time video analytics."
+			},
+			{
+				"title": "Can computer vision run on live camera feeds?",
+				"desc": "Yes. We build low-latency pipelines for live streams with event triggers, alerts, and cloud or edge deployment options."
+			},
+			{
+				"title": "Do you handle image labeling and dataset prep?",
+				"desc": "Yes. We manage annotation workflows, dataset balancing, and quality checks to improve training outcomes."
+			}
+		]
 	},
 	{
 		"id": 6,
@@ -45,7 +174,21 @@
 		"img": "/images/service/service-6.webp",
 		"img2": "/images/service/service-details-6.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"faq": [
+			{
+				"title": "What NLP services do you offer?",
+				"desc": "We deliver chatbots, sentiment analysis, document understanding, summarization, and multilingual text processing systems."
+			},
+			{
+				"title": "Can you train domain-specific language models?",
+				"desc": "Yes. We fine-tune models on your domain language to improve relevance, accuracy, and context-aware responses."
+			},
+			{
+				"title": "How do you ensure response quality and safety?",
+				"desc": "We use guardrails, prompt controls, testing suites, and human review loops to maintain quality and reduce risk."
+			}
+		]
 	},
 	{
 		"id": 7,
@@ -53,7 +196,21 @@
 		"img": "/images/service/service-1.webp",
 		"img2": "/images/service/service-details-1.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"faq": [
+			{
+				"title": "Can you start with a small AI proof of concept?",
+				"desc": "Yes. We begin with a focused pilot to validate business value before scaling to a full production rollout."
+			},
+			{
+				"title": "Will our internal team get training?",
+				"desc": "We provide onboarding, documentation, and hands-on training so your team can confidently use and manage the solution."
+			},
+			{
+				"title": "How do you measure AI project success?",
+				"desc": "We define KPIs early, such as time saved, conversion lift, or cost reduction, and track progress post-launch."
+			}
+		]
 	},
 	{
 		"id": 8,
@@ -61,7 +218,21 @@
 		"img": "/images/service/service-2.webp",
 		"img2": "/images/service/service-details-2.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"faq": [
+			{
+				"title": "Do you provide UI and backend together?",
+				"desc": "Yes. We handle full-stack delivery including UX design, frontend, backend APIs, database, and deployment."
+			},
+			{
+				"title": "Can you integrate third-party platforms?",
+				"desc": "Yes. We integrate payment gateways, CRMs, ERPs, analytics tools, and communication platforms based on your workflow."
+			},
+			{
+				"title": "What support do you offer after delivery?",
+				"desc": "We offer maintenance plans, bug fixes, performance tuning, and feature enhancement support after go-live."
+			}
+		]
 	},
 	{
 		"id": 9,
@@ -69,6 +240,20 @@
 		"img": "/images/service/service-3.webp",
 		"img2": "/images/service/service-details-3.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest."
+		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"faq": [
+			{
+				"title": "Can you detect revenue leakage patterns?",
+				"desc": "Yes. We identify high-risk behaviors, missed opportunities, and hidden trends that impact revenue performance."
+			},
+			{
+				"title": "Do you work with real-time forecasting?",
+				"desc": "Yes. We create near real-time prediction pipelines so teams can react quickly to changing demand and risk signals."
+			},
+			{
+				"title": "Can analytics outputs be shared across departments?",
+				"desc": "We structure role-based dashboards and reports so sales, operations, and leadership can use the same trusted insights."
+			}
+		]
 	}
 ]

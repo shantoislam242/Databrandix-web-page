@@ -70,6 +70,9 @@ START: Blog Details CSS
 				columns: 1;
 			}
 		}
+		ul.service-points-list {
+			columns: 1;
+		}
 		.blog-video {
 			position: relative;
 			z-index: 1;
@@ -916,7 +919,7 @@ blockquote {
 	flex-wrap: wrap;
 	column-gap: 15px;
 	row-gap: 15px;
-	align-items: center;
+	align-items: stretch;
 	margin-bottom: 50px;
 }
 .service-details-item {
@@ -925,6 +928,9 @@ blockquote {
 	padding: 30px 17px 25px 18px;
 	max-width: 275px;
 	width: 100%;
+	display: flex;
+	flex-direction: column;
+	min-height: 320px;
 	.number {
 		display: inline-flex;
 		align-items: center;
