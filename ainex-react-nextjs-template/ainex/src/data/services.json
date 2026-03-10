@@ -6,6 +6,11 @@
 		"img2": "/images/service/service-details-1.webp",
 		"iconName": "tji-service-1",
 		"desc": "We build data-driven marketing systems that connect paid media, search, and analytics to real business outcomes.",
+		"bulletPoints": [
+			"Multi-platform paid media management",
+			"Search visibility and organic growth",
+			"Performance tracking and attribution"
+		],
 		"details": {
 			"heroTitle": "Data-Driven Growth Systems. One Architecture. Measurable Outcomes.",
 			"introParagraphs": [
@@ -87,6 +92,11 @@
 		"img2": "/images/service/service-details-2.webp",
 		"iconName": "tji-service-1",
 		"desc": "We collect structured business data from any web source, clean it, and deliver it ready for decision making.",
+		"bulletPoints": [
+			"Custom scraper design and development",
+			"Multi-domain structured data collection",
+			"Automated and scheduled data delivery"
+		],
 		"details": {
 			"heroTitle": "Web Scraping & Intelligence Collection. Built for Business Decisions.",
 			"introParagraphs": [
@@ -168,6 +178,11 @@
 		"img2": "/images/service/service-details-3.webp",
 		"iconName": "tji-service-1",
 		"desc": "We design and develop websites built around your business objectives, fast, integrated, and conversion-ready.",
+		"bulletPoints": [
+			"Full-stack custom web development",
+			"CRM and third-party API integration",
+			"Conversion-optimized build and architecture"
+		],
 		"details": {
 			"heroTitle": "Website Design & Development Built to Perform. Engineered to Convert.",
 			"introParagraphs": [
@@ -253,6 +268,11 @@
 		"img2": "/images/service/service-details-4.webp",
 		"iconName": "tji-service-1",
 		"desc": "We build brand architecture, positioning, messaging, and identity that gives your entire team something to work from.",
+		"bulletPoints": [
+			"Positioning and messaging framework",
+			"Tone of voice and identity direction",
+			"Decision-ready brand guidelines"
+		],
 		"details": {
 			"heroTitle": "Brand Strategy Built to Be Understood. Designed to Be Remembered.",
 			"introParagraphs": [

@@ -28,6 +28,7 @@ export interface ServiceType {
 	img2: string;
 	iconName: string;
 	desc: string;
+	bulletPoints?: string[];
 	faq?: ServiceFaqType[];
 	details?: ServiceDetailsContentType;
 }

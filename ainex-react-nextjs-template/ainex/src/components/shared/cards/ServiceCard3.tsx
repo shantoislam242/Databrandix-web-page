@@ -14,7 +14,7 @@ const ServiceCard3 = ({ item, idx = 0, lastIteme }: PropType) => {
 		desc,
 		id,
 		img = "/images/service/service-1.webp",
-		iconName,
+		bulletPoints = [],
 	} = item || {};
 	return (
 		<div
@@ -28,11 +28,13 @@ const ServiceCard3 = ({ item, idx = 0, lastIteme }: PropType) => {
 						<Link href={`/services/${id}`}>{title}</Link>
 					</h3>
 					<p className="desc">{desc}</p>
-					<ul className="list-style-2">
-						<li>Personalized Experience</li>
-						<li>Process Automation</li>
-						<li>Predictive Analytics</li>
-					</ul>
+					{bulletPoints.length ? (
+						<ul className="list-style-2">
+							{bulletPoints.map((point, pointIdx) => (
+								<li key={pointIdx}>{point}</li>
+							))}
+						</ul>
+					) : null}
 					<ButtonPrimary text="Learn More" url={`/services/${id}`} />
 				</div>
 				<div className="service-img">
