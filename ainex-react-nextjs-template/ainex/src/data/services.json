@@ -5,7 +5,7 @@
 		"img": "/images/service/service-1.webp",
 		"img2": "/images/service/service-details-1.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"desc": "We build data-driven marketing systems that connect paid media, search, and analytics to real business outcomes.",
 		"details": {
 			"heroTitle": "Data-Driven Growth Systems. One Architecture. Measurable Outcomes.",
 			"introParagraphs": [
@@ -86,7 +86,7 @@
 		"img": "/images/service/service-2.webp",
 		"img2": "/images/service/service-details-2.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"desc": "We collect structured business data from any web source, clean it, and deliver it ready for decision making.",
 		"details": {
 			"heroTitle": "Web Scraping & Intelligence Collection. Built for Business Decisions.",
 			"introParagraphs": [
@@ -167,7 +167,7 @@
 		"img": "/images/service/service-3.webp",
 		"img2": "/images/service/service-details-3.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"desc": "We design and develop websites built around your business objectives, fast, integrated, and conversion-ready.",
 		"details": {
 			"heroTitle": "Website Design & Development Built to Perform. Engineered to Convert.",
 			"introParagraphs": [
@@ -252,7 +252,7 @@
 		"img": "/images/service/service-4.webp",
 		"img2": "/images/service/service-details-4.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"desc": "We build brand architecture, positioning, messaging, and identity that gives your entire team something to work from.",
 		"details": {
 			"heroTitle": "Brand Strategy Built to Be Understood. Designed to Be Remembered.",
 			"introParagraphs": [
@@ -333,111 +333,426 @@
 	},
 	{
 		"id": 5,
-		"title": "Computer Vision",
+		"title": "Content Production",
 		"img": "/images/service/service-5.webp",
 		"img2": "/images/service/service-details-5.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"desc": "We produce data-backed content across every format, built for authority and conversion, not likes or impressions.",
+		"details": {
+			"heroTitle": "Content Production Content That Builds Authority. Not Just Audience.",
+			"introParagraphs": [
+				"Everyone is producing content. Brands, founders, agencies, competitors, the feed is full. Most of it gets a few likes, maybe a share, and then disappears. The teams behind it move on to the next post, the next reel, the next campaign. And at the end of the quarter, no one can explain what any of it actually did for the business. The problem is not effort. The problem is that content gets treated as an output, something that needs to go out on schedule, rather than a system that needs to move someone from awareness to trust to action. When that shift happens, everything changes.",
+				"We build content systems around that shift. Data-backed strategy, clear audience targeting, and production that is built to do a job, not to fill a calendar. Blog content that ranks and earns trust. Social content that says something worth stopping for. Email copy that gets read because it respects the reader's time. Video scripts that communicate, not just entertain. No chasing trends. No vanity metrics. The objective is not to go viral. The objective is to build authority in your space and convert the right people consistently, over time, through content that actually means something to the person reading it."
+			],
+			"leftColumnPoints": [
+				"Data-backed content strategy",
+				"Multi-format content production",
+				"Conversion-oriented copywriting"
+			],
+			"rightColumnPoints": [
+				"Authority-building editorial direction",
+				"Audience-specific messaging design",
+				"Consistent publishing infrastructure"
+			],
+			"servicesRangeTitle": "Our Range of Content Production Services",
+			"servicesRangeDesc": "Content without strategy is just noise. And strategy without production is just a document. We bring both together so what gets planned actually gets made, and what gets made actually does something. Below is what we produce and how each format serves a specific role in your growth.",
+			"sectionA": [
+				{
+					"title": "Blog and Long-Form Content",
+					"desc": "SEO strategy, editorial planning, and article production. We build content around what your audience is actually searching for so your blog earns organic visibility and authority."
+				},
+				{
+					"title": "Social Media Content",
+					"desc": "Platform strategy, copywriting, and creative direction. Each post is built for a specific platform behavior and a specific audience, not for posting frequency alone."
+				},
+				{
+					"title": "Email Content",
+					"desc": "Campaign copy, nurture sequences, and newsletter writing. We write email content that respects the reader, gets opened, and moves people toward a decision."
+				},
+				{
+					"title": "Video Scripts and Long-Form Copy",
+					"desc": "Script writing, explainer content, and thought leadership. We write content that communicates clearly and positions your brand with depth."
+				}
+			],
+			"sectionB": [
+				{
+					"title": "Content Strategy and Calendar Planning",
+					"desc": "We start with your audience, your goals, and the gaps in your current content. Then we build a content strategy and publishing calendar that gives your team direction."
+				},
+				{
+					"title": "Research and Brief Development",
+					"desc": "Every piece starts with a brief. Keyword research, audience insight, competitive analysis, and a clear angle are defined before writing begins."
+				},
+				{
+					"title": "Production and Copywriting",
+					"desc": "This is where content gets written, edited, and refined to reflect the expertise behind your brand rather than just filling a slot on the calendar."
+				},
+				{
+					"title": "Performance Tracking and Optimization",
+					"desc": "We track engagement, rankings, click-through, and conversion contribution, then use that data to sharpen what comes next."
+				}
+			]
+		},
 		"faq": [
 			{
-				"title": "What vision-based use cases do you support?",
-				"desc": "We support object detection, quality inspection, face recognition, document parsing, and real-time video analytics."
+				"title": "What types of content do you produce?",
+				"desc": "We produce blog articles, social media content, email copy, video scripts, newsletters, and long-form thought leadership pieces. If your audience reads it, watches it, or receives it in their inbox, we can produce it."
 			},
 			{
-				"title": "Can computer vision run on live camera feeds?",
-				"desc": "Yes. We build low-latency pipelines for live streams with event triggers, alerts, and cloud or edge deployment options."
+				"title": "How do you decide what content to make?",
+				"desc": "We start with data: what your audience is searching for, what competitors are producing, and where the gaps are. Every content decision is backed by research, not gut feel."
 			},
 			{
-				"title": "Do you handle image labeling and dataset prep?",
-				"desc": "Yes. We manage annotation workflows, dataset balancing, and quality checks to improve training outcomes."
+				"title": "How do you measure whether content is working?",
+				"desc": "We track metrics tied to business outcomes including organic traffic growth, keyword rankings, email open and click rates, lead attribution, and conversion contribution. Likes and shares are noted but never treated as the goal."
+			},
+			{
+				"title": "How long before we see results from content?",
+				"desc": "For SEO and organic content, meaningful results typically show within three to six months. Email and social content can show engagement data much faster, and we track from day one."
+			},
+			{
+				"title": "What makes Databrandix different from a content agency?",
+				"desc": "Most content agencies produce volume. We produce with intention. Every piece has a defined audience, a clear objective, and a role inside a larger strategy."
 			}
 		]
 	},
 	{
 		"id": 6,
-		"title": "Language Processing",
+		"title": "Data & Analytics",
 		"img": "/images/service/service-6.webp",
 		"img2": "/images/service/service-details-6.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"desc": "We build analytics infrastructure that turns raw business data into clear insights and actionable monthly recommendations.",
+		"details": {
+			"heroTitle": "From Raw Data to Decision Intelligence.",
+			"introParagraphs": [
+				"Data only becomes valuable when it helps you make better decisions. Many businesses collect large amounts of data from websites, ads, and user activity, but without the right structure that data remains difficult to interpret. Our data and analytics service focuses on transforming raw data into clear, usable insights that support smarter marketing and business decisions.",
+				"We build structured analytics systems that track the actions that actually matter to your business. Through analytics setup, conversion tracking, and custom dashboards, we ensure that your data is organized and accessible. Instead of delivering reports filled with numbers, we provide clear insights and practical recommendations that help you understand performance, identify opportunities, and continuously improve your digital strategy."
+			],
+			"leftColumnPoints": [
+				"End-to-end analytics setup and configuration",
+				"Custom dashboard design and build",
+				"Conversion and attribution tracking"
+			],
+			"rightColumnPoints": [
+				"Insight-driven performance analysis",
+				"Decision-focused reporting framework",
+				"Clear and actionable data visibility"
+			],
+			"servicesRangeTitle": "Our Range of Data & Analytics Services",
+			"servicesRangeDesc": "We do not hand you a platform login and call it done. Every analytics service we provide is part of a connected system where tracking infrastructure, attribution modeling, and performance reporting work together toward a single objective: turning raw business data into decisions your team can act on. Below is what we build and how each part contributes to a cleaner, faster decision-making process across your entire operation.",
+			"sectionA": [
+				{
+					"title": "Analytics Setup",
+					"desc": "Implementation of a structured analytics environment including Google Analytics configuration, event tracking setup, and measurement frameworks that allow accurate monitoring of user behavior and website performance."
+				},
+				{
+					"title": "Conversion Tracking",
+					"desc": "Google Tag Manager, Meta Pixel, and platform-specific events. Every meaningful action on your website is tracked accurately and attributed correctly."
+				},
+				{
+					"title": "Custom Dashboard Development",
+					"desc": "Looker Studio, data visualization, and multi-source reporting. We build dashboards around the questions your team actually asks, not around what is easiest to display."
+				},
+				{
+					"title": "UTM Structure and Data Integrity",
+					"desc": "Campaign tagging, source attribution, and tracking governance. We build a UTM framework your team can follow so attribution stays consistent across every channel."
+				}
+			],
+			"sectionB": [
+				{
+					"title": "Audit and Gap Analysis",
+					"desc": "We review broken tracking, misconfigured goals, missing events, and attribution gaps to map out exactly what needs to be fixed or rebuilt."
+				},
+				{
+					"title": "Implementation and Configuration",
+					"desc": "GA4, Tag Manager, pixel configuration, conversion events, and UTM governance are implemented correctly and tested before anything goes live."
+				},
+				{
+					"title": "Dashboard Build and Handover",
+					"desc": "We build your Looker Studio dashboard around the decisions your team needs to make, connect relevant sources, and walk your team through how to use it."
+				},
+				{
+					"title": "Monthly Insight Reporting",
+					"desc": "Every month we review your data, explain what shifted, why it changed, and what your team should do next in clear, decision-ready language."
+				}
+			]
+		},
 		"faq": [
 			{
-				"title": "What NLP services do you offer?",
-				"desc": "We deliver chatbots, sentiment analysis, document understanding, summarization, and multilingual text processing systems."
+				"title": "We already have analytics tools set up. Do we still need this?",
+				"desc": "Having a tool installed is not the same as having analytics that works. Most setups we audit are missing key conversion events, have inconsistent tracking, or are measuring the wrong things. We assess what you have first and tell you what needs to be fixed or rebuilt."
 			},
 			{
-				"title": "Can you train domain-specific language models?",
-				"desc": "Yes. We fine-tune models on your domain language to improve relevance, accuracy, and context-aware responses."
+				"title": "What does your monthly insight report actually look like?",
+				"desc": "It covers what changed in your data, what drove the change, what it means for your business, and what we recommend doing next. It is written for decision makers, not analysts."
 			},
 			{
-				"title": "How do you ensure response quality and safety?",
-				"desc": "We use guardrails, prompt controls, testing suites, and human review loops to maintain quality and reduce risk."
+				"title": "Which platforms do you pull data from?",
+				"desc": "We pull from Google Ads, Meta Ads, TikTok Ads, LinkedIn Ads, email platforms, CRM systems, and any other relevant source that can be connected to your reporting setup."
+			},
+			{
+				"title": "How long does it take to get everything set up?",
+				"desc": "A standard analytics setup and dashboard build typically takes two to three weeks. If there is significant cleanup on existing tracking, it may take slightly longer."
+			},
+			{
+				"title": "What makes Databrandix different from someone who just sets up tracking?",
+				"desc": "Anyone can install a tracking tag. We focus on what events actually matter, how attribution should be structured, and what questions the data needs to answer for your business. Then we stay involved to keep the system useful over time."
 			}
 		]
 	},
 	{
 		"id": 7,
-		"title": "AI-Powered Solutions",
+		"title": "CRM Implementation",
 		"img": "/images/service/service-1.webp",
 		"img2": "/images/service/service-details-1.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"desc": "We build CRM systems around your sales process so leads move through your pipeline without falling through the gaps.",
+		"details": {
+			"heroTitle": "Structured Lead Systems. Reliable Sales Operations.",
+			"introParagraphs": [
+				"Most businesses do not lose leads because of bad marketing. They lose them because of what happens after the lead comes in. Someone forgets to follow up. A deal sits in the wrong pipeline stage for two weeks. A hot prospect goes cold because three people assumed someone else was handling it. The leads were there. The system was not.",
+				"A CRM is only as useful as the structure behind it. Out of the box, most CRM tools are just a contact list with a few columns. What makes it work is the pipeline logic, the lead scoring, the automation that triggers the right action at the right time, and a team that actually knows how to use it. We build all of that. From selecting the right platform for your specific workflow to configuring every stage, setting up automation, and training your team so the system runs the way your sales process actually runs, not the way the default template assumes it does."
+			],
+			"leftColumnPoints": [
+				"Structured CRM platform implementation",
+				"Organized sales pipeline configuration",
+				"Workflow automation and trigger design"
+			],
+			"rightColumnPoints": [
+				"Full team onboarding and training",
+				"Lead management system architecture",
+				"Integration with existing tools and platforms"
+			],
+			"servicesRangeTitle": "Our Range of CRM Implementation Services",
+			"servicesRangeDesc": "We do not install a CRM and hand over a login. Every implementation we deliver is built around how your team actually works: how leads come in, how they get qualified, who owns what, and what needs to happen at every stage without anyone having to remember to do it. Below is what we cover and how each part keeps your pipeline moving.",
+			"sectionA": [
+				{
+					"title": "CRM Selection and Strategy",
+					"desc": "Platform assessment, business fit analysis, and stack alignment. We assess your workflow, team size, integration requirements, and growth stage to recommend the platform that actually fits."
+				},
+				{
+					"title": "Pipeline Configuration and Lead Scoring",
+					"desc": "Stage design, scoring logic, and qualification criteria. Every stage is mapped to your real sales process so your team knows where to focus."
+				},
+				{
+					"title": "CRM Automation",
+					"desc": "Follow-up sequences, task triggers, and notification logic. We automate the manual work your team should not be doing so the right action happens at the right time."
+				},
+				{
+					"title": "Integration and Data Migration",
+					"desc": "Tool connections, API setup, and historical data transfer. Your CRM connects cleanly with the systems you already rely on, and legacy data is migrated without losing context."
+				}
+			],
+			"sectionB": [
+				{
+					"title": "Discovery and Workflow Mapping",
+					"desc": "We start by understanding how leads move through your business today, where they stall, and what your team needs the system to do differently."
+				},
+				{
+					"title": "Platform Setup and Configuration",
+					"desc": "Full CRM build based on your workflow, including pipeline stages, custom fields, lead scoring, permissions, and dashboards configured to match how your team operates."
+				},
+				{
+					"title": "Automation Design and Implementation",
+					"desc": "Every repetitive action in your follow-up process is mapped and automated, including sequences, internal task triggers, and stage-based notifications."
+				},
+				{
+					"title": "Team Onboarding and Training",
+					"desc": "We run onboarding sessions, prepare internal documentation, and stay available during the first weeks of live use so adoption actually happens."
+				}
+			]
+		},
 		"faq": [
 			{
-				"title": "Can you start with a small AI proof of concept?",
-				"desc": "Yes. We begin with a focused pilot to validate business value before scaling to a full production rollout."
+				"title": "Which CRM platforms do you work with?",
+				"desc": "We work across major platforms including HubSpot, Zoho, Pipedrive, and others depending on your business requirements. We recommend based on fit, not familiarity."
 			},
 			{
-				"title": "Will our internal team get training?",
-				"desc": "We provide onboarding, documentation, and hands-on training so your team can confidently use and manage the solution."
+				"title": "We already have a CRM but our team is not using it properly. Can you help?",
+				"desc": "Yes. We audit your current setup, identify what is broken or missing, reconfigure the system around how your team actually works, and run proper onboarding to restore adoption."
 			},
 			{
-				"title": "How do you measure AI project success?",
-				"desc": "We define KPIs early, such as time saved, conversion lift, or cost reduction, and track progress post-launch."
+				"title": "How do you handle data from our existing system?",
+				"desc": "We map your existing data structure, clean what needs cleaning, and migrate it into the new setup without losing contact history, deal records, or pipeline context."
+			},
+			{
+				"title": "How long does a CRM implementation take?",
+				"desc": "A standard implementation runs three to five weeks depending on pipeline complexity and the number of integrations involved. Larger setups may take longer."
+			},
+			{
+				"title": "What makes Databrandix different from just buying a CRM subscription?",
+				"desc": "A CRM subscription gives you access to a tool. We give you a working system built around your sales process, with configuration, automation, integration, and training that stops leads from getting lost."
 			}
 		]
 	},
 	{
 		"id": 8,
-		"title": "Custom Technology",
+		"title": "AI & Workflow Automation",
 		"img": "/images/service/service-2.webp",
 		"img2": "/images/service/service-details-2.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"desc": "We automate the repetitive work slowing your team down so they can focus on outcomes that actually require them.",
+		"details": {
+			"heroTitle": "AI & Workflow Automation Less Manual Work. Better Outcomes.",
+			"introParagraphs": [
+				"Many organizations rely on repetitive manual tasks that slow down productivity and create unnecessary operational overhead. From lead follow-ups to reporting updates, these tasks consume valuable time that teams could spend on higher-impact work. Our AI and workflow automation service focuses on reducing manual effort while improving operational efficiency.",
+				"We design automation systems that connect your tools, streamline processes, and ensure that routine tasks run automatically in the background. By implementing workflow automation platforms and intelligent integrations, we help businesses create smoother operations where information flows efficiently between systems and teams can focus on meaningful outcomes."
+			],
+			"leftColumnPoints": [
+				"Intelligent workflow automation design",
+				"Multi-platform integration architecture",
+				"AI-assisted operational optimization"
+			],
+			"rightColumnPoints": [
+				"Custom AI agent development and deployment",
+				"Data sync and cross-platform integration",
+				"Ongoing monitoring and performance management"
+			],
+			"servicesRangeTitle": "Our Range of AI & Workflow Automation Services",
+			"servicesRangeDesc": "We do not automate for the sake of it. Every automation we build starts with a clear understanding of what your team is doing manually, why it is costing you time or accuracy, and what a better system looks like. Below is what we build and how each part reduces friction in your operation.",
+			"sectionA": [
+				{
+					"title": "Workflow Audit and Process Analysis",
+					"desc": "We evaluate existing operational processes to identify repetitive tasks, inefficiencies, and the areas where automation can meaningfully improve productivity and output quality."
+				},
+				{
+					"title": "Automation Architecture Design",
+					"desc": "We plan and design automation frameworks that connect your platforms, keep data flowing correctly, and keep workflows running consistently without manual oversight."
+				},
+				{
+					"title": "Workflow Implementation",
+					"desc": "Zapier, Make, and n8n implementation. We deploy automation systems that handle lead notifications, reporting updates, data transfers, and cross-system synchronization."
+				},
+				{
+					"title": "AI-Assisted Automation",
+					"desc": "AI agents and intelligent process automation. We build workflows that go beyond fixed rules and support dynamic responses, data processing, and operational decisions."
+				}
+			],
+			"sectionB": [
+				{
+					"title": "Automation Strategy Planning",
+					"desc": "We identify automation opportunities across your operation and define workflow structures that reduce manual dependency and improve how work moves through your business."
+				},
+				{
+					"title": "System Integration and Deployment",
+					"desc": "We connect automation workflows with your CRM, marketing platforms, databases, and internal tools so everything runs as one system."
+				},
+				{
+					"title": "Automation Testing and Optimization",
+					"desc": "Every workflow is validated and stress-tested before launch so the system performs reliably under real conditions, not just ideal ones."
+				},
+				{
+					"title": "Monitoring and Continuous Improvement",
+					"desc": "We monitor deployed automations, adjust performance as platforms evolve, and refine workflows as your operational needs change over time."
+				}
+			]
+		},
 		"faq": [
 			{
-				"title": "Do you provide UI and backend together?",
-				"desc": "Yes. We handle full-stack delivery including UX design, frontend, backend APIs, database, and deployment."
+				"title": "How do we know which parts of our business are worth automating?",
+				"desc": "That is what the workflow audit is for. We map your current processes, identify repetitive and rule-based tasks, and prioritize the automations that will have the most immediate impact."
 			},
 			{
-				"title": "Can you integrate third-party platforms?",
-				"desc": "Yes. We integrate payment gateways, CRMs, ERPs, analytics tools, and communication platforms based on your workflow."
+				"title": "Do we need technical knowledge to use the automations you build?",
+				"desc": "No. We build automation systems your team can monitor and use without needing to understand what is running underneath. Where relevant, we provide simple dashboards and controls."
 			},
 			{
-				"title": "What support do you offer after delivery?",
-				"desc": "We offer maintenance plans, bug fixes, performance tuning, and feature enhancement support after go-live."
+				"title": "What is the difference between standard automation and an AI agent?",
+				"desc": "Standard automation follows fixed rules. An AI agent can handle variability, read context, make bounded judgment calls, and manage tasks that do not always follow the same pattern."
+			},
+			{
+				"title": "What happens when an automation breaks?",
+				"desc": "We monitor deployed automations and handle failures as part of ongoing management. If something breaks, we identify the issue, fix it, and update the logic if the root cause has changed."
+			},
+			{
+				"title": "What makes Databrandix different from someone who just sets up a Zapier account?",
+				"desc": "Connecting two apps is straightforward. Building an automation system that handles real business logic, edge cases, data integrity, and ongoing monitoring is a different level of work. That is what we build."
 			}
 		]
 	},
 	{
 		"id": 9,
-		"title": "Predictive Analytics",
+		"title": "SEO & GEO Optimization",
 		"img": "/images/service/service-3.webp",
 		"img2": "/images/service/service-details-3.webp",
 		"iconName": "tji-service-1",
-		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"desc": "We grow your organic visibility on search engines and AI platforms through strategy aligned to real search intent.",
+		"details": {
+			"heroTitle": "Rank Where Your Buyers Are Looking. Including Where AI Is Answering.",
+			"introParagraphs": [
+				"Most businesses treat SEO as a checklist. Stuff some keywords in, publish a few blogs, wait for Google to notice. It rarely works that way anymore. Search has changed. The people searching have changed. And with AI-powered platforms like ChatGPT, Perplexity, and Gemini now answering questions directly, the businesses that do not adapt to that shift are already losing visibility they do not know they are losing.",
+				"We build search visibility the right way. Starting with what your audience is actually looking for, how they phrase it, and what they expect to find when they get there. Technical SEO that fixes what is holding your site back. On-page structure that search engines can read and users actually want to engage with. Content strategy aligned to real search intent, not keyword density. And GEO optimization that positions your brand to appear in AI-generated answers, not just traditional search results. We do not promise rankings. We build the foundation that makes rankings a natural outcome."
+			],
+			"leftColumnPoints": [
+				"Technical SEO audit and implementation",
+				"Search intent-aligned content strategy",
+				"On-page structure and optimization"
+			],
+			"rightColumnPoints": [
+				"GEO optimization for AI search platforms",
+				"Organic visibility growth and tracking",
+				"Keyword strategy and ranking analysis"
+			],
+			"servicesRangeTitle": "Our Range of SEO & GEO Optimization Services",
+			"servicesRangeDesc": "Search visibility is not a single lever you pull once. It is a system of interconnected decisions: technical, content, and strategic, that compound over time when done correctly. We handle the full stack of that system, including the layer most agencies have not caught up to yet. Below is what we cover and how each part contributes to sustainable, measurable visibility growth.",
+			"sectionA": [
+				{
+					"title": "Technical SEO",
+					"desc": "Site audit, Core Web Vitals, crawlability, and indexing. We audit and fix the technical issues that prevent search engines from properly reading, crawling, and ranking your content."
+				},
+				{
+					"title": "On-Page Optimization",
+					"desc": "Content structure, meta architecture, and internal linking. Every page is aligned to how search works today for both engines and users."
+				},
+				{
+					"title": "Content Strategy and SEO Writing",
+					"desc": "Keyword research, topic clusters, and search intent mapping. We build content around what your audience is genuinely searching for across their decision journey."
+				},
+				{
+					"title": "GEO Optimization",
+					"desc": "AI search visibility across ChatGPT, Perplexity, and Gemini. We structure content and authority signals for how AI systems source and surface answers."
+				}
+			],
+			"sectionB": [
+				{
+					"title": "SEO Audit and Opportunity Mapping",
+					"desc": "We start with a full audit of your search presence including technical health, rankings, content gaps, backlink profile, and competitor positioning."
+				},
+				{
+					"title": "Strategy and Roadmap Development",
+					"desc": "Keyword strategy, content roadmap, technical priorities, and a GEO optimization plan built around your business goals and the actual search landscape."
+				},
+				{
+					"title": "Implementation and Optimization",
+					"desc": "Technical fixes, on-page updates, content production, and GEO execution are delivered in a structured sequence with every change tracked."
+				},
+				{
+					"title": "Tracking and Monthly Reporting",
+					"desc": "Ranking movement, organic traffic growth, AI platform visibility, and conversion contribution are reported in a way your team can act on."
+				}
+			]
+		},
 		"faq": [
 			{
-				"title": "Can you detect revenue leakage patterns?",
-				"desc": "Yes. We identify high-risk behaviors, missed opportunities, and hidden trends that impact revenue performance."
+				"title": "How is GEO optimization different from regular SEO?",
+				"desc": "Traditional SEO focuses on ranking in Google. GEO focuses on making your brand appear in AI-generated answers on platforms like ChatGPT, Perplexity, and Gemini. We handle both."
 			},
 			{
-				"title": "Do you work with real-time forecasting?",
-				"desc": "Yes. We create near real-time prediction pipelines so teams can react quickly to changing demand and risk signals."
+				"title": "How long does it take to see results from SEO?",
+				"desc": "Meaningful organic growth typically becomes visible within three to six months. Technical fixes and on-page improvements can show impact sooner, and we track from week one."
 			},
 			{
-				"title": "Can analytics outputs be shared across departments?",
-				"desc": "We structure role-based dashboards and reports so sales, operations, and leadership can use the same trusted insights."
+				"title": "Do you guarantee rankings?",
+				"desc": "No. We do not guarantee rankings. We provide a rigorous process, transparent reporting, and a strategy built on what actually drives search visibility."
+			},
+			{
+				"title": "We have been doing SEO for a while with no results. What would you do differently?",
+				"desc": "We start with an audit to find the real issue. In most cases it is technical blocking, weak search-intent alignment, or a keyword strategy that does not match the current domain strength."
+			},
+			{
+				"title": "What makes Databrandix different from a standard SEO agency?",
+				"desc": "Most SEO agencies focus only on Google. We build visibility across both traditional and AI-powered search, and we connect SEO to the broader marketing system so it contributes to leads and conversions, not just traffic."
 			}
 		]
 	}
