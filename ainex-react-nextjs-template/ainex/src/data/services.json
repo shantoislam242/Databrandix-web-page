@@ -163,45 +163,171 @@
 	},
 	{
 		"id": 3,
-		"title": "Predictive Analytics",
+		"title": "Web Design & Development",
 		"img": "/images/service/service-3.webp",
 		"img2": "/images/service/service-details-3.webp",
 		"iconName": "tji-service-1",
 		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"details": {
+			"heroTitle": "Website Design & Development Built to Perform. Engineered to Convert.",
+			"introParagraphs": [
+				"We design and develop websites built around the specific business objectives of your organization. Using PHP, Laravel, WordPress, Shopify, Node.js, and Next.js, we build structured web systems across any domain: corporate sites, admission portals, eCommerce stores, CRM-integrated platforms, or custom web applications. Every website we deliver is fast, functional, and ready to convert. We do not hand you a template dressed up as a product. We deliver a web system your business can grow on.",
+				"Before writing a single line of code, we first understand what your website needs to do. We analyze your user journey, where drop-offs happen, what actions matter, and how your backend needs to connect. From that understanding, we build a development architecture that fits your specific business context rather than applying a generic theme to your brand. The objective is not a website that looks good in a browser. The objective is a web presence that works: built precisely, integrated fully, and aligned to your growth goals."
+			],
+			"leftColumnPoints": [
+				"Full-stack design and development",
+				"Multi-platform technology execution",
+				"Conversion-optimized build delivery"
+			],
+			"rightColumnPoints": [
+				"Business-specific system architecture",
+				"CRM and API-ready integration",
+				"Scalable, performance-engineered output"
+			],
+			"servicesRangeTitle": "Our Range of Website Design & Development Services",
+			"servicesRangeDesc": "We do not build websites by template or stack preference. Every web system we develop is designed around your specific business objective: what you need it to do, who it needs to serve, and how it connects to your operations. Below is what we build and how each part contributes to your digital infrastructure.",
+			"sectionA": [
+				{
+					"title": "Custom Web Development",
+					"desc": "PHP, Laravel, Node.js, Next.js. When your requirements do not fit a pre-built solution, we build from scratch. Custom business logic, database design, and API architecture are developed around your workflow, not around what is fastest to ship."
+				},
+				{
+					"title": "CMS and WordPress Development",
+					"desc": "WordPress, custom themes, and plugin integration. We build WordPress systems that are structured, fast, and easy to manage so your content team can move without bottlenecks."
+				},
+				{
+					"title": "eCommerce Development",
+					"desc": "Shopify, WooCommerce, and custom store architecture. We build stores with the full purchase journey in mind, addressing checkout drop-off, mobile performance, and operational friction."
+				},
+				{
+					"title": "CRM and API Integration",
+					"desc": "CRM systems, third-party APIs, and workflow connection. We connect your site to the tools your ops team actually uses so data flows correctly and nothing gets lost between platforms."
+				}
+			],
+			"sectionB": [
+				{
+					"title": "Discovery and Scope Definition",
+					"desc": "We map your user journey, identify where your current system breaks down, and define exactly what needs to be built before any design or development starts."
+				},
+				{
+					"title": "UI/UX Design and Prototyping",
+					"desc": "We design for the decision your user needs to make, not for a portfolio screenshot. Wireframes, conversion flow, and mobile layout are signed off before code is written."
+				},
+				{
+					"title": "Development and Integration",
+					"desc": "Frontend, backend, CMS, eCommerce, CRM connection, API wiring, and performance tuning are built and tested end to end so your team gets something that works on handover."
+				},
+				{
+					"title": "Launch and Post-Launch Support",
+					"desc": "Deployment, speed audit, and conversion tracking are completed before launch. If something surfaces after go-live, we stay on it and support the rollout."
+				}
+			]
+		},
 		"faq": [
 			{
-				"title": "What can predictive analytics help us forecast?",
-				"desc": "It can forecast sales, customer churn, inventory demand, and operational risks using your historical and real-time data."
+				"title": "What kind of websites do you build?",
+				"desc": "We build corporate websites, campaign landing pages, admission portals, eCommerce stores, CRM-connected platforms, and custom web applications. If your team has a specific operational requirement attached to it, that is exactly the kind of project we are built for."
 			},
 			{
-				"title": "How accurate are the predictions?",
-				"desc": "Accuracy depends on data quality and business context. We validate models with benchmarks and continuously improve performance."
+				"title": "Can you work with what we already have?",
+				"desc": "Yes. Rebuilds, redesigns, performance fixes, and platform migrations are all part of our workflow. We assess your current setup honestly and tell you what is worth keeping and what is holding you back."
 			},
 			{
-				"title": "Do you provide dashboards for insights?",
-				"desc": "Yes. We deliver clear dashboards and alerts so decision-makers can act quickly on predicted trends and anomalies."
+				"title": "How do you make sure the site connects to our existing tools?",
+				"desc": "Integration is part of the scope from day one. We map your CRM, marketing stack, and third-party tools before development starts so connections are built in rather than bolted on."
+			},
+			{
+				"title": "How long does a project take?",
+				"desc": "Corporate websites usually run three to six weeks. eCommerce and custom application builds typically take six to twelve weeks depending on integration complexity. We set the timeline at kickoff and flag risks early."
+			},
+			{
+				"title": "What does working with Databrandix actually look like for our team?",
+				"desc": "You get a clear scope, a defined timeline, and a team that communicates when something changes. Your ops and marketing team stays in the loop throughout because a website built without that input rarely does what it needs to do."
 			}
 		]
 	},
 	{
 		"id": 4,
-		"title": "Machine Learning",
+		"title": "Brand Strategy",
 		"img": "/images/service/service-4.webp",
 		"img2": "/images/service/service-details-4.webp",
 		"iconName": "tji-service-1",
 		"desc": "Specialize in delivering AI-powered solution revolutionize the businesses operate be leveraging the our latest.",
+		"details": {
+			"heroTitle": "Brand Strategy Built to Be Understood. Designed to Be Remembered.",
+			"introParagraphs": [
+				"Most businesses do not have a brand problem. They have a clarity problem. The product is solid, the team knows what they do, but the moment it needs to be communicated to a client, on a website, in a pitch, it falls apart. Different people say different things. The tone shifts depending on who wrote the copy. The logo exists but no one knows what it is supposed to mean. That is not a design issue. That is a strategy issue.",
+				"We start where most agencies skip the thinking. Before anything is named, designed, or written, we work to understand what your business actually stands for, who it is speaking to, and what it needs to sound like consistently across every surface. From that foundation we build a brand architecture: positioning, messaging framework, tone of voice, and visual identity direction that gives your entire team something to work from. Not a mood board. Not a font choice. A system that makes every future communication decision faster and more consistent."
+			],
+			"leftColumnPoints": [
+				"Insight-led positioning development",
+				"Cross-channel messaging architecture",
+				"Audience-aligned tone of voice design"
+			],
+			"rightColumnPoints": [
+				"Coherent visual identity direction",
+				"Decision-ready brand guidelines",
+				"Business-specific brand framework"
+			],
+			"servicesRangeTitle": "Our Range of Brand Strategy Services",
+			"servicesRangeDesc": "Brand strategy is not something you commission once and file away. It is the foundation every other function marketing, sales, content, product builds on. When it is clear, everything downstream gets easier. When it is not, everything downstream costs more. Below is what we develop and how each part holds the system together.",
+			"sectionA": [
+				{
+					"title": "Brand Positioning",
+					"desc": "Market context, competitive differentiation, and value clarity. We define where your brand sits in the market, why it matters to the people you need to reach, and what separates it from every other available option."
+				},
+				{
+					"title": "Messaging Framework",
+					"desc": "Core narrative, audience messaging, and proof points. We build a structured message hierarchy your team can use across company, product, and audience-specific communication."
+				},
+				{
+					"title": "Tone of Voice",
+					"desc": "Language principles, writing style, and communication guidelines. We define how your brand sounds across email, websites, proposals, and social so different writers still sound like the same brand."
+				},
+				{
+					"title": "Visual Identity Direction",
+					"desc": "Identity system, typography, color, and application logic. We shape the visual expression of your positioning with clear rules for how the identity works across formats and contexts."
+				}
+			],
+			"sectionB": [
+				{
+					"title": "Discovery and Brand Audit",
+					"desc": "We assess your current positioning, competitor landscape, audience perception, and the gaps between how the brand is seen internally and externally."
+				},
+				{
+					"title": "Positioning and Strategy Development",
+					"desc": "We define your market position, clarify differentiation, and build the strategic foundation everything else relies on. The work moves carefully because the decisions are foundational."
+				},
+				{
+					"title": "Messaging and Voice Design",
+					"desc": "With positioning set, we develop the messaging framework and tone of voice guidelines so every key message and language principle is documented clearly."
+				},
+				{
+					"title": "Identity Direction and Brand Guidelines",
+					"desc": "We translate strategy into visual direction and compile positioning, messaging, voice, and identity into a brand guidelines document your team can actually use."
+				}
+			]
+		},
 		"faq": [
 			{
-				"title": "Which ML models do you work with?",
-				"desc": "We work with supervised, unsupervised, and deep learning models based on use case, data volume, and performance goals."
+				"title": "We are early stage. Is it too soon for brand strategy?",
+				"desc": "It is never too early to be clear about what you stand for. The earlier you define positioning and messaging, the less you spend correcting it later across decks, hiring, and content."
 			},
 			{
-				"title": "Can you train models on our private data?",
-				"desc": "Yes. We set up secure training pipelines and data governance controls to protect sensitive information during model training."
+				"title": "What do we actually walk away with?",
+				"desc": "You get a brand guidelines document covering your positioning statement, messaging framework, tone of voice principles, and visual identity direction built specifically for your company."
 			},
 			{
-				"title": "Do you support model monitoring after launch?",
-				"desc": "Yes. We monitor drift, accuracy, and latency, then retrain and optimize models to keep results reliable over time."
+				"title": "How much of our time does this take?",
+				"desc": "It requires real input from the founder or leadership team, but less time than most expect. We facilitate the process and do the heavy lifting, but the core strategic input has to come from you."
+			},
+			{
+				"title": "How long does it take?",
+				"desc": "Most early-stage brand strategy engagements run four to six weeks. Timing depends on how quickly decisions are made and how many stakeholders are involved."
+			},
+			{
+				"title": "We have a logo already. Do we still need this?",
+				"desc": "A logo is not a brand. If your positioning is unclear, your messaging changes depending on who is speaking, or your identity no longer reflects where the company is headed, then yes, you still need the strategy."
 			}
 		]
 	},
